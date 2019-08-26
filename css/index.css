@@ -1,5 +1,5 @@
 /* HOME SECTION */
-#home-section {
+#title-section {
     height: 100vh;
     background-position: center;
     background-image: url("../images/river.jpg");
@@ -11,13 +11,13 @@
     background-size: cover;
     position: relative;
 }
-#home-section .container{
+#title-section .container{
     color: white;
     margin-top: 0;
     top: 40%;
     position: relative;
 }
-#home-section #resume-btn {
+#title-section #resume-btn {
     transition: .5s;
     color: white;
     background-color: var(--c-primary);
@@ -25,7 +25,7 @@
     padding: 5px 20px;
     cursor: pointer;
 }
-#home-section #resume-btn:hover {
+#title-section #resume-btn:hover {
     transition: .4s;
     border: 2px solid white;
 }
