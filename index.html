@@ -24,9 +24,6 @@
     <!--Website Icon/Logo (needs to be made and added)-->
 
 
-    <!--Base CSS-->
-    <link rel="stylesheet" type="text/css" href="css/base.css">
-
     <!--header.html-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -40,6 +37,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
+
+    <!--Base CSS-->
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
 </head>
 
 <!--NAVBAR-->
@@ -66,34 +67,33 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="/#about">ABOUT</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/#portfolio">PORTFOLIO</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/#contact">CONTACT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
                 </ul>
             </div>
         </nav>
     </div>
 </header>
 
+<!--HOME SECTION-->
+<section id="home-section">
+    <div class="container">
+        <h1>Ryoma</h1>
+        <h5>programmer</h5>
+    </div>
+    <div class="container">
+        <a href="{% static 'blog/resume/RyomaHarris-AcademicResume.pdf' %}" target="_blank">
+            <button id="resume-btn">
+                Résumé
+            </button>
+        </a>
+    </div>
+</section>
 
-<main>
+<main id="main-content">
 
-    <!--HOME SECTION-->
-    <section id="home-section">
-        <div class="container">
-            <h1>Ryoma</h1>
-            <h5>programmer</h5>
-        </div>
-        <div class="container">
-            <a href="{% static 'blog/resume/RyomaHarris-AcademicResume.pdf' %}" target="_blank">
-                <button id="resume-btn">
-                    Résumé
-                </button>
-            </a>
-        </div>
-    </section>
-
-    <article id="main-content">
+    <article>
         <!--ABOUT SECTION-->
         <section id="about-section">
             <div class="section-wrapper">
@@ -127,13 +127,13 @@
                                 <div class="d-block">
                                     <div class="card">
                                         <div class="card-content">
-                                            <img class="card-img" src="images/projects/port_card_sample.jpg">
+                                            <img class="card-img" src="../images/projects/port_card_sample.jpg">
                                             <div class="card-img-overlay">
                                                 <div class="card-text">
                                                     <h5>Senior Project</h5>
                                                     <p>An internship at the ODU ModSim Center.</p>
                                                     <br>
-                                                    <a class="more-info-btn" href="{% url 'seniorproject' %}">
+                                                    <a class="more-info-btn" href="../projects/seniorproject.html">
                                                         <button class="btn">Read more</button>
                                                     </a>
                                                 </div>
@@ -146,7 +146,7 @@
                                 <div class="d-block">
                                     <div class="card">
                                         <div class="card-content">
-                                            <img class="card-img" src="images/projects/port_card_sample.jpg">
+                                            <img class="card-img" src="../images/projects/port_card_sample.jpg">
                                             <div class="card-img-overlay">
                                                 <div class="card-text">
                                                     <h5>TSEF Project</h5>
@@ -165,7 +165,7 @@
                                 <div class="d-block">
                                     <div class="card">
                                         <div class="card-content">
-                                            <img class="card-img" src="images/projects/port_card_sample.jpg">
+                                            <img class="card-img" src="../images/projects/port_card_sample.jpg">
                                             <div class="card-img-overlay">
                                                 <div class="card-text">
                                                     <h5>I-Search Project</h5>
@@ -256,13 +256,17 @@
         </section>
     </article>
 
+</main>
 
     <!-- Add footer and scripts js-->
     <!--Essential JS-->
-    <script type="text/javascript" src="js/darkmode.js"></script>
-    <script type="text/javascript" src="js/nav.js"></script>
-    <script type="text/javascript" src="js/smoothscroll.js"></script>
-    <script type="text/javascript" src="js/projectslist.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/darkmode.js"></script>
+    <script type="text/javascript" src="../js/nav.js"></script>
+    <script type="text/javascript" src="../js/smoothscroll.js"></script>
+    <script type="text/javascript" src="../js/projectslist.js"></script>
+    <script type="text/javascript" src="../js/tableofcontents.js"></script>
+
 
     <footer>
         <div class="social-media">
@@ -283,6 +287,5 @@
             <p>Ryoma Harris 2019</p>
         </div>
     </footer>
-</main>
 
 </html>

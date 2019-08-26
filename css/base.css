@@ -74,18 +74,6 @@
         --c-hr: #555;
     }
 
-    /* GENERAL CSS */
-    html {
-        scroll-behavior: smooth;
-    }
-    main {
-        color: var(--c-primary-text);
-        font-family: "Montserrat";
-        font-size: 100%;
-        line-height: 1.15;
-        background-color: var(--c-gray-3);
-    }
-
     /* TEXT CSS */
     h1 {
         font-size: calc(1em * 1.3 * 1.3 * 1.3 * 1.3 * 1.3 * 1.3);
@@ -154,10 +142,25 @@
         background-color: var(--c-hr);
     }
 
+    /* GENERAL CSS */
+    html {
+        scroll-behavior: smooth;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    main {
+        color: var(--c-primary-text);
+        font-family: "Montserrat";
+        font-size: 100%;
+        line-height: 1.15;
+        background-color: var(--c-gray-3);
+    }
+
     /* CONTENT, CONTAINER, AND SECTION CSS */
     #main-content section {
         padding: 90px auto 90px auto;
-        margin: 90px auto 90px auto;
+        margin: 90px auto 0px auto;
     }
     .container {
         padding: 60px auto;
@@ -354,176 +357,6 @@
     #navbar a:hover {
         transition: 0.25s;
     }
-
-
-
-/* INDEX CSS */
-
-    /* HOME SECTION */
-    #home-section {
-        height: 100vh;
-        background-position: center;
-        background-image: url("images/river.jpg");
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        -webkit-backgournd-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        position: relative;
-    }
-    #home-section .container{
-        color: white;
-        margin-top: 0;
-        top: 40%;
-        position: relative;
-    }
-    @media (min-width: 750px) {
-      #home-section .container {
-        margin-left: 15%;
-      }
-    }
-    #home-section #resume-btn {
-        transition: .5s;
-        color: white;
-        background-color: var(--c-primary);
-        border: 2px solid var(--c-primary);
-        padding: 5px 20px;
-        cursor: pointer;
-    }
-    #home-section #resume-btn:hover {
-        transition: .4s;
-        border: 2px solid white;
-    }
-
-    /* PORTFOLIO SECTION */
-    #portfolio-section .row * {
-        margin: auto;
-    }
-    #portfolio-section ol.carousel-indicators li {
-        height: 0.6em;
-        width: 0.6em;
-        border-radius: 100%;
-        margin: 0px 8px;
-    }
-    #portfolio-section ol.carousel-indicators li {
-        background-color: var(--c-secondary);
-    }
-    #portfolio-section ol.carousel-indicators .active {
-        background-color: var(--c-accent);
-    }
-    #portfolio-section .carousel-control-prev, #portfolio-section .carousel-control-next {
-        font-size: 1.25em;
-        width: 8%;
-        margin-bottom: 60px;
-    }
-    #portfolio-section .carousel-control-prev {
-        margin-left: 4%;
-    }
-    #portfolio-section .carousel-control-next {
-        margin-right: 4%;
-    }
-    #portfolio-section .carousel {
-        padding-bottom: 60px;
-        margin-bottom: 60px;
-    }
-    #portfolio-section .project {
-        text-align: center;
-    }
-    #portfolio-section .card {
-        overflow: hidden;
-        position: relative;
-        border: none;
-    }
-    #portfolio-section .card-content {
-        backface-visibility: hidden;
-        position: relative;
-    }
-    #portfolio-section .card-img-overlay {
-        background-image: linear-gradient(
-            to right,
-            rgba(0, 0, 0, .8),
-            rgba(0, 0, 0, .6),
-            rgba(0, 0, 0, .5),
-            rgba(0, 0, 0, .6),
-            rgba(0, 0, 0, .8)
-        );
-        width: 100%;
-        height: 100%;
-        position: absolute;
-    }
-    #portfolio-section .card-text {
-        color: white;
-        text-align: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-    }
-    @media only screen and (max-width: 540px) {
-        #portfolio-section .card-text p {
-            display: none;
-        }
-    }
-    #portfolio-section .btn {
-        transition: .4s all;
-        color: white;
-        background-color: var(--c-primary);
-        border: 1px solid var(--c-primary);
-        border-radius: 50px;
-        padding: 6px 20px;
-    }
-    #portfolio-section .btn:hover {
-        border: 1px solid white;
-    }
-
-
-    #portfolio-section .projects-header {
-        text-align: center;
-    }
-    #portfolio-section #projects-toggler {
-        transition: .2s all;
-        color: var(--c-primary-text);
-        cursor: pointer;
-    }
-    #portfolio-section #projects-toggler:hover {
-        color: var(--c-primary);
-    }
-    #portfolio-section .projects-header i {
-        margin: 5px
-    }
-    #portfolio-section .rotate {
-        transform: rotate(0deg);
-        transition: .2s;
-    }
-    #portfolio-section .rotate2 {
-        transform: rotate(-180deg);
-        transition: .2s;
-    }
-    #portfolio-section #projects {
-        border: solid var(--c-primary) 1px;
-        border-radius: 8px;
-        overflow: hidden;
-    }
-    #portfolio-section .projects-list {
-        list-style-type: none;
-        margin: 0;
-        padding: 20px 20px;
-    }
-    #portfolio-section .project-list-tile {
-        margin: 0;
-    }
-    #portfolio-section .project-title h6 {
-        line-height: 1;
-        margin-bottom: 5px;
-    }
-    #portfolio-section .project-list-tile-separator hr {
-        background-color: var(--c-hr);
-        margin: 15px auto;
-    }
-
 
 
 /* ARTICLE CSS */
