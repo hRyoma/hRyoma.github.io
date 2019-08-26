@@ -78,8 +78,7 @@
     html {
         scroll-behavior: smooth;
     }
-
-    body {
+    main {
         color: var(--c-primary-text);
         font-family: "Montserrat";
         font-size: 100%;
@@ -124,9 +123,11 @@
         padding: 0;
     }
     p {
+        font-family: 'Lora', serif;
         font-size: calc(1em);
+        font-size: 18px;
         font-style: normal;
-        line-height: 1.6;
+        line-height: 1.75em;
         letter-spacing: 0em;
         margin: 0;
         padding: 0;
@@ -526,13 +527,6 @@
 
 
 /* ARTICLE CSS */
-
-    /* GENERAL */
-    p {
-        font-family: 'Lora', serif;
-        font-size: 18px;
-        line-height: 1.75em;
-    }
 
     /* TITLE SECTION */
     #title-section {
