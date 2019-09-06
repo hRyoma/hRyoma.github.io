@@ -47,6 +47,7 @@
     background-color: var(--c-accent);
 }
 #portfolio-section .carousel-control-prev, #portfolio-section .carousel-control-next {
+    color: var(--c-accent);
     font-size: 1.25em;
     width: 8%;
     margin-bottom: 60px;
@@ -100,6 +101,10 @@
     #portfolio-section .card-text p {
         display: none;
     }
+}
+#portfolio-section .card-text p {
+    font-size: 16px;
+    line-height: 1.15em;
 }
 #portfolio-section .btn {
     transition: .4s all;
