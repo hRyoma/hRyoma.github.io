@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffca9b4b-3dc7-4eae-91f9-a2c62b6d0566" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/hRyoma.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hRyoma.github.io.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documents/Ryoma-Harris_Academic-Resume.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/portfolio/racecar_evo_cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/portfolio/tsef_2019_cover.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/article.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/article.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/senior-project.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/senior-project.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,28 +18,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="58" column="68" lean-forward="true" selection-start-line="58" selection-start-column="68" selection-end-line="58" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio/senior-project.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
+            <state relative-caret-position="989">
               <caret line="1090" column="33" selection-start-line="1090" selection-start-column="33" selection-end-line="1090" selection-end-column="33" />
-              <folding>
-                <element signature="e#17825#17829#0" expanded="true" />
-                <element signature="e#17841#17845#0" expanded="true" />
-                <element signature="e#17854#17858#0" expanded="true" />
-                <element signature="e#17870#17874#0" expanded="true" />
-                <element signature="e#25491#25495#0" expanded="true" />
-                <element signature="e#25561#25565#0" expanded="true" />
-                <element signature="e#25567#25571#0" expanded="true" />
-                <element signature="e#25584#25588#0" expanded="true" />
-                <element signature="e#25660#25664#0" expanded="true" />
-                <element signature="e#25731#25735#0" expanded="true" />
-                <element signature="e#34771#34777#0" expanded="true" />
-                <element signature="e#34777#34783#0" expanded="true" />
-                <element signature="e#34893#34899#0" expanded="true" />
-                <element signature="e#34905#34911#0" expanded="true" />
-                <element signature="e#34993#34999#0" expanded="true" />
-                <element signature="e#35011#35017#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -48,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/article.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="910">
+            <state relative-caret-position="1190">
               <caret line="70" column="27" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
             </state>
           </provider>
@@ -65,7 +64,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dark-mode</find>
       <find>base.css</find>
       <find>project-</find>
       <find>seniorproject</find>
@@ -95,6 +93,7 @@
       <find>portfolio/</find>
       <find>card</find>
       <find>type a paragraph here</find>
+      <find>grid</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,11 +120,11 @@
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/portfolio/evolving-race-cars.html" />
         <option value="$PROJECT_DIR$/portfolio/tsef-2019.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/portfolio/temp.html" />
         <option value="$PROJECT_DIR$/css/article.css" />
         <option value="$PROJECT_DIR$/portfolio/senior-project.html" />
+        <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -139,6 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,6 +159,12 @@
             <path>
               <item name="hRyoma.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="hRyoma.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hRyoma.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hRyoma.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -175,7 +181,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,13 +189,15 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io" />
-      <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\layouts\projects" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\images\projects" />
       <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\documents" />
+      <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\images\portfolio" />
+      <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io" />
+      <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\layouts\projects" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -222,7 +229,7 @@
     <frame x="55" y="0" width="943" height="1207" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17790055" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17790055" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -309,20 +316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2023">
-          <caret line="119" column="50" selection-start-line="119" selection-start-column="50" selection-end-line="119" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -339,33 +332,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/article.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
+        <state relative-caret-position="1190">
           <caret line="70" column="27" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/senior-project.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
+        <state relative-caret-position="989">
           <caret line="1090" column="33" selection-start-line="1090" selection-start-column="33" selection-end-line="1090" selection-end-column="33" />
-          <folding>
-            <element signature="e#17825#17829#0" expanded="true" />
-            <element signature="e#17841#17845#0" expanded="true" />
-            <element signature="e#17854#17858#0" expanded="true" />
-            <element signature="e#17870#17874#0" expanded="true" />
-            <element signature="e#25491#25495#0" expanded="true" />
-            <element signature="e#25561#25565#0" expanded="true" />
-            <element signature="e#25567#25571#0" expanded="true" />
-            <element signature="e#25584#25588#0" expanded="true" />
-            <element signature="e#25660#25664#0" expanded="true" />
-            <element signature="e#25731#25735#0" expanded="true" />
-            <element signature="e#34771#34777#0" expanded="true" />
-            <element signature="e#34777#34783#0" expanded="true" />
-            <element signature="e#34893#34899#0" expanded="true" />
-            <element signature="e#34905#34911#0" expanded="true" />
-            <element signature="e#34993#34999#0" expanded="true" />
-            <element signature="e#35011#35017#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/portfolio/racecar_evo_cover.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/portfolio/port_card_sample.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/portfolio/tsef_2019_cover.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="58" column="68" lean-forward="true" selection-start-line="58" selection-start-column="68" selection-end-line="58" selection-end-column="68" />
         </state>
       </provider>
     </entry>

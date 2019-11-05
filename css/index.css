@@ -35,37 +35,6 @@
 
 #portfolio-section {
 }
-#portfolio-section .grid-container {
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    grid-row-gap: 40px;
-}
-#portfolio-section .grid-item {
-    color: white;
-    background-color: green;
-    height: 300px;
-    width: 200px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-}
-#portfolio-section .grid-item-overlay {
-}
-#portfolio-section .grid-item:hover > .grid-item-overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: #000;
-    opacity: 0.5;
-}
-#portfolio-section .grid-item-description * {
-    visibility: hidden;
-}
-#portfolio-section .grid-item:hover .grid-item-description * {
-    visibility: visible;
-}
-/*
 #portfolio-section .row * {
     margin: auto;
 }
@@ -152,4 +121,3 @@
 #portfolio-section .btn:hover {
     border: 1px solid white;
 }
-*/
