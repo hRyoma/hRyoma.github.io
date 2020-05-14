@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffca9b4b-3dc7-4eae-91f9-a2c62b6d0566" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/projects-nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/darkmode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/evolving-race-cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/evolving-race-cars.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/senior-project.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/senior-project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/temp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/tsef-2019.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/tsef-2019.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" />
-    </list>
+    <list default="true" id="ffca9b4b-3dc7-4eae-91f9-a2c62b6d0566" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="255">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -243,16 +230,16 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\layouts" />
-      <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\documents" />
-      <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\images\portfolio" />
-      <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io" />
-      <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\layouts\projects" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\images\projects" />
       <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\documents" />
+      <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\layouts" />
+      <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\images\portfolio" />
+      <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io" />
+      <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\layouts\projects" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -506,8 +493,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="255">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>

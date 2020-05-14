@@ -2,42 +2,42 @@
     height: 100vh;
 }
 
-#home-section .container {
-    padding: 4em;
-    position: relative;
-    top: 25vh;
-    border-left: 3px solid var(--c-gray-700);
-    border-right: 3px solid var(--c-gray-700);
-}
+    #home-section .container {
+        padding: 1em 2em;
+        position: relative;
+        top: 25vh;
+        border-left: 3px solid var(--c-gray-700);
+        border-right: 3px solid var(--c-gray-700);
+    }
 
-#home-section #resume-btn {
-    color: white;
-    background-color: none;
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    transition: all 0.2s ease-in-out;
-}
+    #home-section #resume-link {
+        color: white;
+        background-color: none;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 0.5em 1em;
+        text-decoration: none;
+        transition: all 0.2s ease-in-out;
+    }
 
-#home-section #resume-btn:hover {
-    color: var(--c-primary);
-    border-color: var(--c-primary);
-}
+        #home-section #resume-link:hover {
+            color: var(--c-primary);
+            border-color: var(--c-primary);
+        }
 
-.sidebar-social {
+.sm-links {
     position: absolute;
     bottom: 3vh;
     right: 3vh;
     z-index: 99;
 }
 
-.sidebar-social .sm-btn {
-    margin: auto 20px;
-    font-size: 1.3em;
-    color: var(--c-secondary);
-}
+    .sm-links .sm-btn {
+        margin: auto 20px;
+        font-size: 1.3em;
+        color: var(--c-secondary);
+    }
 
-.sidebar-social .sm-btn :hover {
-    color: var(--c-primary);
-}
+        .sm-links .sm-btn :hover {
+            color: var(--c-primary);
+        }
