@@ -1443,69 +1443,8 @@
                         computer science field.</p>
                 </div>
             </div>
-            <div class="container">
-                <div class="projects-header">
-                    <h6><a id="projects-toggler" class="view-all-btn">View Other Projects</a></h6>
-                    <i class="fa fa-angle-down rotate"></i>
-                </div>
-            </div>
-            <div class="container">
-                <nav id="projects">
-                    <ul class="projects-list">
-                        <li class="project-list-tile">
-                            <a class="project-title" href="https://hRyoma.github.io/portfolio/senior-project"><h6>
-                                Senior Project</h6>
-                            </a>
-                            <p class="project-description">A month-long internship at the ODU Virginia Modeling,
-                                Analysis, and Simulation Center.</p>
-                        </li>
-                        <li class="project-list-tile-separator">
-                            <hr>
-                        </li>
-                        <li class="project-list-tile">
-                            <a class="project-title" href="https://hRyoma.github.io/portfolio/tsef-2019"><h6>TSEF
-                                Project</h6></a>
-                            <p class="project-description">Rocket Payload Separation to Achieve a Target Apogee</p>
-                        </li>
-                        <li class="project-list-tile-separator">
-                            <hr>
-                        </li>
-                        <li class="project-list-tile">
-                            <a class="project-title" href="https://hRyoma.github.io/portfolio/evolving-race-cars">
-                                <h6>Evolving Race Cars</h6></a>
-                            <p class="project-description">An exploration into simple evolution simulation.</p>
-                        </li>
-                        <li class="project-list-tile-separator">
-                            <hr>
-                        </li>
-                        <li class="project-list-tile">
-                            <a class="project-title" href="https://hRyoma.github.io/portfolio/i-search"><h6>I-Search
-                                Project</h6></a>
-                            <p class="project-description">A look into mobile Android application development.</p>
-                        </li>
-                        <li class="project-list-tile-separator">
-                            <hr>
-                        </li>
-                        <li class="project-list-tile">
-                            <a class="project-title" href="https://hRyoma.github.io/portfolio/portfolio"><h6>Website
-                                Development</h6>
-                            </a>
-                            <p class="project-description">A detailing of my journey building this portfolio
-                                website.</p>
-                        </li>
-                        <li class="project-list-tile-separator">
-                            <hr>
-                        </li>
-                        <li class="project-list-tile">
-                            <a class="project-title" href="https://hRyoma.github.io/portfolio/create-task"><h6>AP
-                                CSP Create Task</h6>
-                            </a>
-                            <p class="project-description">A mobile app created using Flutter and Dart.</p>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
         </section>
+        <section id="projects-nav-placeholder"></section>
     </article>
 
 </main>
@@ -1514,36 +1453,11 @@
 
 <script>
 $(function(){
+  $("#projects-nav-placeholder").load("../templates/projects-nav.html");
+});
+$(function(){
   $("#footer-placeholder").load("../templates/footer.html");
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </script>
@@ -1552,7 +1466,6 @@ $(function(){
 <script type="text/javascript" src="../js/darkmode.js"></script>
 <script type="text/javascript" src="../js/nav.js"></script>
 <script type="text/javascript" src="../js/smoothscroll.js"></script>
-<script type="text/javascript" src="../js/projectslist.js"></script>
 <script type="text/javascript" src="../js/tableofcontents.js"></script>
 
 </html>

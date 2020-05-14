@@ -1,429 +1,75 @@
+/* COLOR THEME CSS */
+:root {
+    --c-gray-50: #F5F7FA;
+    --c-gray-100: #E4E7EB;
+    --c-gray-200: #CBD2D9;
+    --c-gray-300: #9AA5BA;
+    --c-gray-400: #7B8794;
+    --c-gray-500: #61637C;
+    --c-gray-600: #52606D;
+    --c-gray-700: #3E4C59;
+    --c-gray-800: #323F4B;
+    --c-gray-900: #1F2933;
+
+    --c-primary: #61A2C2;
+    --c-secondary: #BDBDBD;
+    --c-confirm: #00897B;
+    --c-warning: #303F9F;
+    --c-remove: #C62828;
+    --c-help: #673AB7;
+}
+
+/* TEXT CSS */
+h1, h2, h3, h4, h5, h6, p {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: calc(1em * 1.3 * 1.3 * 1.3 * 1.3 * 1.3 * 1.3);
+    line-height: 0.85;
+}
+h2 {
+    font-size: calc(1em * 1.3 * 1.3 * 1.3 * 1.3 * 1.3);
+    line-height: 1;
+}
+h3 {
+    font-size: calc(1em * 1.3 * 1.3 * 1.3 * 1.3);
+}
+h4 {
+    font-size: calc(1em * 1.3 * 1.3 * 1.3);
+}
+h5 {
+    font-size: calc(1em * 1.3 * 1.3);
+}
+h6 {
+    font-size: calc(1em * 1.3);
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: 0em;
+}
+p {
+    line-height: 1.5;
+}
+
 /* GENERAL CSS */
+html {
+    scroll-behavior: smooth;
+}
 
-    /* COLOR THEME CSS */
-    :root {
-        --c-primary: rgb(66, 126, 150);
-        --c-accent: rgb(44, 149, 234);
-        --c-secondary: rgb(50, 86, 100);
-
-        --c-code: #e8ecf2;
-
-        --c-gray-1: #E0E0E0;
-        --c-gray-2: #F5F5F5;
-        --c-gray-3: #FAFAFA;
-        --c-gray-4: #FFFFFF;
-
-        --c-primary-text: rgba(0, 0, 0, 1);
-        --c-secondary-text: rgba(0, 0, 0, 0.7);
-        --c-disabled-text: rgba(0, 0, 0, 0.5);
-        --c-hint-text: rgba(0, 0, 0, 0.5);
-
-        --c-primary-opp-text: rgba(255, 255, 255, 1);
-        --c-secondary-opp-text: rgba(255, 255, 255, 0.7);
-        --c-disabled-opp-text: rgba(255, 255, 255, 0.5);
-        --c-hint-opp-text: rgba(255, 255, 255, 0.5);
-
-        --c-hr: #eee;
-    }
-    @media (prefers-color-scheme: dark) {
-        --c-primary: rgb(95, 164, 191);
-        --c-accent: rgb(40, 159, 255);
-        --c-secondary: rgb(50, 86, 100);
-
-        --c-code: #2a323f;
-
-        --c-gray-1: #424242;
-        --c-gray-2: #303030;
-        --c-gray-3: #212121;
-        --c-gray-4: #000000;
-
-        --c-primary-text: rgba(255, 255, 255, 1);
-        --c-secondary-text: rgba(255, 255, 255, 0.7);
-        --c-disabled-text: rgba(255, 255, 255, 0.5);
-        --c-hint-text: rgba(255, 255, 255, 0.5);
-
-        --c-primary-opp-text: rgba(0, 0, 0, 1);
-        --c-secondary-opp-text: rgba(0, 0, 0, 0.7);
-        --c-disabled-opp-text: rgba(0, 0, 0, 0.5);
-        --c-hint-opp-text: rgba(0, 0, 0, 0.5);
-
-        --c-hr: #555;
-    }
-    [data-theme="dark"] {
-        --c-primary: rgb(95, 164, 191);
-        --c-accent: rgb(40, 159, 255);
-        --c-secondary: rgb(50, 86, 100);
-
-        --c-code: #2a323f;
-
-        --c-gray-1: #424242;
-        --c-gray-2: #303030;
-        --c-gray-3: #212121;
-        --c-gray-4: #000000;
-
-        --c-primary-text: rgba(255, 255, 255, 1);
-        --c-secondary-text: rgba(255, 255, 255, 0.7);
-        --c-disabled-text: rgba(255, 255, 255, 0.5);
-        --c-hint-text: rgba(255, 255, 255, 0.5);
-
-        --c-primary-opp-text: rgba(0, 0, 0, 1);
-        --c-secondary-opp-text: rgba(0, 0, 0, 0.7);
-        --c-disabled-opp-text: rgba(0, 0, 0, 0.5);
-        --c-hint-opp-text: rgba(0, 0, 0, 0.5);
-
-        --c-hr: #555;
-    }
-
-    /* TEXT CSS */
-    h1, h2, h3, h4, h5, h6, p {
-        margin: 0;
-        padding: 0;
-    }
-
-    h1 {
-        font-size: calc(1em * 1.3 * 1.3 * 1.3 * 1.3 * 1.3 * 1.3);
-        line-height: 1;
-    }
-    h2 {
-        font-size: calc(1em * 1.3 * 1.3 * 1.3 * 1.3 * 1.3);
-        line-height: 1;
-    }
-    h3 {
-        font-size: calc(1em * 1.3 * 1.3 * 1.3 * 1.3);
-    }
-    h4 {
-        font-size: calc(1em * 1.3 * 1.3 * 1.3);
-    }
-    h5 {
-        font-size: calc(1em * 1.3 * 1.3);
-    }
-    h6 {
-        font-size: calc(1em * 1.3);
-        font-style: normal;
-        line-height: 1.6;
-        letter-spacing: 0em;
-    }
-    p {
-        font-family: 'Lora', serif;
-        font-size: calc(1em);
-        font-size: 18px;
-        font-style: normal;
-        line-height: 1.75em;
-        letter-spacing: 0em;
-    }
-
-    /* BUTTON, <a> TAG, and <hr> CSS */
-    button {
-        font-size: calc(1em * 1.3);
-    }
-
-    a:link {
-        color: var(--c-secondary-text);
-    }
-    a.email:link {
-        color: var(--c-primary);
-    }
-    a:visited {
-        color: var(--c-accent);
-    }
-    a:hover {
-        color: var(--c-primary);
-    }
-    a:active {
-        color: var(--c-primary);
-    }
-    hr {
-        background-color: var(--c-hr);
-    }
-
-    /* GENERAL CSS */
-    html {
-        scroll-behavior: smooth;
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-    main {
-        background-color: var(--c-gray-3);
-        padding-bottom: 90px;
-    }
-    .dark-mode, header, #title-section, article, footer {
-        color: var(--c-primary-text);
-        font-family: "Montserrat";
-        font-size: 100%;
-        line-height: 1.15;
-    }
-
-    /* CONTENT, CONTAINER, AND SECTION CSS */
-    #main-content section {
-        padding: 90px auto 90px auto;
-        margin: 90px auto 0px auto;
-    }
+body {
+    color: white;
+    font-family: "Montserrat";
+    font-size: 100%;
+    line-height: 1.15;
+    background-color: var(--c-gray-900);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+@media (min-width: 900px) {
     .container {
-        padding: 60px auto;
-        margin: 60px auto;
-    }
-    @media (min-width: 900px) {
-      article .container {
         max-width: 750px;
-      }
     }
-    .section-wrapper {
-        padding-bottom: 1px;
-    }
-    .section-head {
-        padding-top: 90px;
-        margin-top: -90px;
-    }
-    .subsection-head {
-        padding-top: 90px;
-        margin-top: -90px;
-        margin-bottom: 30px;
-        color: var(--c-primary);
-    }
-
-    /* CODE CSS */
-    code {
-        font-family: "Lucida Console";
-        color: var(--c-secondary-text);
-        background-color: var(--c-code);
-    }
-    .code-block {
-        font-family: "Lucida Console";
-        color: var(--c-secondary-text);
-        background-color: var(--c-code);
-        padding: 20px 20px 20px 15px;
-        margin: 40px auto;
-        border-radius: 15px;
-    }
-    .code-block-header {
-        color: var(--c-primary);
-        clear: both;
-        margin-bottom: 30px;
-    }
-    .code-block-file {
-        float: left;
-    }
-    .code-block-language {
-        float: right;
-    }
-    .code-block-content {
-        padding-bottom: 10px;
-        overflow-x: auto;
-        white-space: nowrap;
-    }
-
-    /* PROJECTS LIST */
-    .projects-header {
-        text-align: center;
-    }
-    .projects-header #projects-toggler {
-        transition: .2s all;
-        color: var(--c-primary-text);
-        cursor: pointer;
-    }
-    .projects-header #projects-toggler:hover {
-        color: var(--c-primary);
-    }
-    .projects-header i {
-        margin: 5px
-    }
-    .projects-header .rotate {
-        transform: rotate(0deg);
-        transition: .2s;
-    }
-    .projects-header .rotate2 {
-        transform: rotate(-180deg);
-        transition: .2s;
-    }
-    #projects {
-        border: none;
-        border-radius: 8px;
-        overflow: hidden;
-    }
-    #projects .projects-list {
-        list-style-type: none;
-        margin: 0;
-        padding: 20px 20px;
-    }
-    #projects .project-list-tile {
-        margin: 0;
-    }
-    #projects .project-title h6 {
-        color: var(--c-primary);
-        line-height: 1;
-        margin-bottom: 5px;
-    }
-    #projects .project-description {
-        font-size: 16px;
-        line-height: 1.15em;
-    }
-    #projects .project-list-tile-separator hr {
-        background-color: var(--c-hr);
-        margin: 15px auto;
-    }
-
-
-/* HEADER CSS */
-
-    /* SCROLL TOP BUTTON */
-    #top-btn {
-        color: white;
-        text-align: center;
-        background-color: var(--c-primary);
-        opacity: 0;
-        transition: all 0.4s;
-        border-color: var(--c-primary);
-        border-width: 1px;
-        border-radius: 30px;
-        box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.2);
-        width: 40px;
-        height: 40px;
-        padding: 0px 0px;
-        position: fixed;
-        bottom: 20px;
-        left: 50%;
-        z-index: 99;
-    }
-    #top-btn:hover {
-        box-shadow: 5px 10px 15px -5px rgba(0,0,0,0.4);
-    }
-
-    /* DARK MODE BUTTON */
-     .dark-mode input {
-       display: none;
-    }
-    .dark-mode {
-        transition: 0.3s;
-        text-align: center;
-        font-size: 1.2em;
-        background-color: var(--c-gray-1);
-        border-radius: 30px;
-        border: none;
-        box-shadow: 5px 10px 15px -5px rgba(0,0,0,0.3);
-        width: 50px;
-        height: 50px;
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        z-index: 99;
-        vertical-align: middle;
-    }
-    .dark-mode:hover {
-        color: white;
-        background-color: var(--c-primary);
-    }
-    .dark-mode .theme-switch {
-        padding: 13px;
-        border-radius: 30px;
-    }
-
-    /*NAVIGATION BAR - BRAND*/
-    .navbar-brand {
-        display: inline-block;
-    }
-    #navbar-brand {
-        padding: 5px 10px;
-        border: 2px solid var(--c-accent);
-    }
-
-    /* NAVIGATION BAR - TOGGLER ICON*/
-    #navbar .navbar-toggler {
-        position: relative;
-        border: none;
-        vertical-align: middle;
-        padding: 5px 5px;
-    }
-    #navbar.sticky .navbar-toggler-icon {
-        color: var(--c-primary-opp-text);
-    }
-    #navbar.non-sticky .navbar-toggler-icon {
-        color: var(--c-primary-opp-text);
-    }
-
-    /* NAVIGATION BAR - GENERAL*/
-    #navbar {
-        width: 100%;
-        z-index: 50;
-        top: 0;
-        position: fixed;
-    }
-    #navbar a {
-        text-align: center;
-        margin: 0px 3px;
-        -webkit-touch-callout: none; /* iOS Safari */
-        -webkit-user-select: none; /* Safari */
-        -khtml-user-select: none; /* Konqueror HTML */
-        -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-        user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
-    }
-
-    /* NAVIGATION STICKY EFFECT */
-    .sticky {
-        background-color: var(--c-primary-opp-text);
-        box-shadow: 0px 6px 20px -8px rgba(50, 86, 100, 0.2);
-        padding: 10px 30px;
-        transition: 0.6s;
-    }
-    .non-sticky {
-        background-color: transparent;
-        padding: 25px 40px;
-        transition: 0.3s;
-    }
-    #navbar.sticky * {
-        color: var(--c-primary-text);
-    }
-    #navbar.non-sticky * {
-        color: white;
-    }
-
-    /* NAVIGATION HOVER EFFECT */
-    #navbar .nav-link:before {
-        transition: .25s linear;
-        background: var(--c-primary);
-        border-radius: 5px;
-        content: "";
-        width: 50%;
-        height: 2px;
-        bottom: 5%;
-        left: 25%;
-        visibility: hidden;
-        position: absolute;
-        transform: scaleX(0);
-    }
-    #navbar a.nav-link:hover:before, #navbar a.nav-link:focus:before {
-        visibility: visible;
-        transform: scaleX(1);
-    }
-    #navbar a, a:after, a:before {
-        box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        position: relative;
-    }
-    #navbar a:hover {
-        transition: 0.25s;
-    }
-
-/* FOOTER CSS */
-
-    footer {
-        text-align: center;
-        background-color: var(--c-secondary);
-        padding-top: 40px;
-        padding-bottom: 30px;
-    }
-    footer .social-media a {
-        color: white;
-        text-decoration: none;
-        font-size: 1.5em;
-        margin-left: 0.5em;
-        margin-right: 0.5em;
-    }
-    footer .social-media a:hover {
-        color: var(--c-accent);
-    }
-    footer .text {
-        color: white;
-        padding-top: 30px;
-    }
+}

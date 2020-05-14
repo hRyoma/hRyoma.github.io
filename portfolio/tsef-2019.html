@@ -294,6 +294,7 @@
                 </div>
             </div>
         </section>
+        <section id="projects-nav-placeholder"></section>
     </article>
 
 </main>
@@ -302,15 +303,18 @@
 
 <script>
 $(function(){
+  $("#projects-nav-placeholder").load("../templates/projects-nav.html");
+});
+$(function(){
   $("#footer-placeholder").load("../templates/footer.html");
 });
+
 </script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="../js/darkmode.js"></script>
 <script type="text/javascript" src="../js/nav.js"></script>
 <script type="text/javascript" src="../js/smoothscroll.js"></script>
-<script type="text/javascript" src="../js/projectslist.js"></script>
 <script type="text/javascript" src="../js/tableofcontents.js"></script>
 
 </html>

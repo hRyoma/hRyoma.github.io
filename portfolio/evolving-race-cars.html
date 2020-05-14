@@ -94,10 +94,29 @@
                     <h3>Overview</h3>
                 </div>
                 <div class="container">
-                    <p>Inspired by Dr. Simon Clark's <a href="https://youtu.be/Qv7dhms5dDQ">video</a>.</p>
-                    <p>Link to <a href="https://github.com/hRyoma/racecar_evo">GitHub repository</a>.</p>
+                    <p>This project aimed to teach a car to teach itstelf to drive around a race track, and, more
+                        importantly, to demonstrate an evolution-like system. Running this program requires the Python
+                        modules pygame, numpy, and pickle.</p>
                     <br>
-                    <p>Text</p>
+                    <p>The main.py file loads racetrack1.png and spawns "race cars". Each race car has a randomly
+                        generated value for how much it accelerates, decelerates, and turns. It also has randomly
+                        generated control rods so that it can determine its output action (steer left, steer right,
+                        speed up, or slow down) based on its input values (distance to the black wall from the left,
+                        center, and right field of view, as well as its current speed).</p>
+                    <br>
+                    <p>Each car in the race is given a score based on the number of green checkpoints it crosses and
+                        the number of times it collides with the wall. The best cars "breed" with other ones in order to
+                        generate more cars similar to it, and perhaps even better.</p>
+                    <br>
+                    <p>Pressing the down arrow key allows the user to download the data of the best car at anytime. The
+                        pickle'd file is then read in the test.py file so that the car can be tested on a new track. In
+                        the data directory, car1, car2, car3, and car4 are all cars which can be tested. None are
+                        perfect, but have been able to successfully complete a new racetrack.</p>
+                    <br>
+                    <p>Inspired by Dr. Simon Clark's <a href="https://youtu.be/Qv7dhms5dDQ" target="_blank">video</a>.
+                    </p>
+                    <p>Link to <a href="https://github.com/hRyoma/racecar_evo" target="_blank">GitHub repository</a>.
+                    </p>
                 </div>
                 <div class="container">
                     <nav id="toc">
@@ -109,9 +128,11 @@
                             <hr>
                             <ol id="toc-list">
                                 <li><a href="#overview">Overview</a></li>
-                                <li><a href="#apr">TK Text</a>
+                                <li><a href="#main">main.py</a>
                                     <ol>
-                                        <li><a href="#ai">Artificial Intelligence (AI)</a></li>
+                                        <li><a href="#pygame">Pygame</a></li>
+                                        <li><a href="#physics-and-sight">Physics and Sight</a></li>
+                                        <li><a href="#breeding-and-spawning">Breeding and Spawning</a></li>
                                     </ol>
                                 </li>
                             </ol>
@@ -122,108 +143,111 @@
         </section>
         <section>
             <div class="section-wrapper">
+                <div id="main" class="container section-head">
+                    <h3>main.py</h3>
+                </div>
                 <div class="container">
-                    <div id="computer-vision" class="subsection-head">
-                        <h4>Computer Vision</h4>
+                    <div id="pygame" class="subsection-head">
+                        <h4>Pygame</h4>
                     </div>
                     <h5>About</h5>
                     <br>
-                    <p>Type a paragraph here.</p>
+                    <p>OpenCV is an open-source software library. It is written in C/C++, but there is a Python wrapper
+                        version available for use. To get a better sense of it before beginning to program, I will
+                        explore its core functionalities.</p>
                     <br>
                     <br>
                     <h5>Point</h5>
                     <br>
-                    <p>Type a paragraph here.</p>
-                    <div class="code-block">
-                        <div class="code-block-header">
-                            <div class="code-block-file">main.java</div>
-                            <div class="code-block-language">Java</div>
+                    <p><b><u>Basic Operations</u></b></p>
+                    <ul>
+                        <li>Load an image and access its properties</li>
+                        <div class="code-block">
+                            <div class="code-block-header">
+                                <div class="code-block-file">main.java</div>
+                                <div class="code-block-language">Java</div>
+                            </div>
+                            <hr>
+                            <div></div>
+                            <div class="code-block-content">
+                                <code>img = cv2.imread('image.jpg')</code><br>
+                                <code>img.shape&emsp;&emsp;#returns a tuple of the number of rows, cols, and
+                                    channels</code><br>
+                                <code>img.size &emsp;&emsp;#returns the total number of pixels</code><br>
+                                <code>img.dtype&emsp;&emsp;#returns the image datatype</code>
+                            </div>
                         </div>
-                        <hr>
-                        <div></div>
-                        <div class="code-block-content">
-                            <code>public static void main(String args[]) {</code><br>
-                            <code>&emsp;System.out.println("Hello World!");</code><br>
-                            <code>}</code>
-                            <br>
-                            <br>
-                            <code>public static void main(String args[]) {</code><br>
-                            <code>&emsp;System.out.println("Hello World!");</code><br>
-                            <code>}</code>
-                        </div>
+                    </ul>
+                </div>
+                <div class="container">
+                    <div id="physics-and-sight" class="subsection-head">
+                        <h4>Physics and Sight</h4>
                     </div>
-                    <p>Type a paragraph here.</p>
+                    <h5>About</h5>
+                    <br>
+                    <p>OpenCV is an open-source software library. It is written in C/C++, but there is a Python wrapper
+                        version available for use. To get a better sense of it before beginning to program, I will
+                        explore its core functionalities.</p>
                     <br>
                     <br>
-                    <h5>React</h5>
+                    <h5>Point</h5>
                     <br>
-                    <p>Type a paragraph here.</p>
+                    <p><b><u>Basic Operations</u></b></p>
+                    <ul>
+                        <li>Load an image and access its properties</li>
+                        <div class="code-block">
+                            <div class="code-block-header">
+                                <div class="code-block-file">main.java</div>
+                                <div class="code-block-language">Java</div>
+                            </div>
+                            <hr>
+                            <div></div>
+                            <div class="code-block-content">
+                                <code>img = cv2.imread('image.jpg')</code><br>
+                                <code>img.shape&emsp;&emsp;#returns a tuple of the number of rows, cols, and
+                                    channels</code><br>
+                                <code>img.size &emsp;&emsp;#returns the total number of pixels</code><br>
+                                <code>img.dtype&emsp;&emsp;#returns the image datatype</code>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+                <div class="container">
+                    <div id="breeding-and-spawning" class="subsection-head">
+                        <h4>Breeding and Spawning</h4>
+                    </div>
+                    <h5>About</h5>
+                    <br>
+                    <p>OpenCV is an open-source software library. It is written in C/C++, but there is a Python wrapper
+                        version available for use. To get a better sense of it before beginning to program, I will
+                        explore its core functionalities.</p>
+                    <br>
+                    <br>
+                    <h5>Point</h5>
+                    <br>
+                    <p><b><u>Basic Operations</u></b></p>
+                    <ul>
+                        <li>Load an image and access its properties</li>
+                        <div class="code-block">
+                            <div class="code-block-header">
+                                <div class="code-block-file">main.java</div>
+                                <div class="code-block-language">Java</div>
+                            </div>
+                            <hr>
+                            <div></div>
+                            <div class="code-block-content">
+                                <code>img = cv2.imread('image.jpg')</code><br>
+                                <code>img.shape&emsp;&emsp;#returns a tuple of the number of rows, cols, and
+                                    channels</code><br>
+                                <code>img.size &emsp;&emsp;#returns the total number of pixels</code><br>
+                                <code>img.dtype&emsp;&emsp;#returns the image datatype</code>
+                            </div>
+                        </div>
+                    </ul>
                 </div>
             </div>
         </section>
-        <div class="container">
-            <div class="projects-header">
-                <h6><a id="projects-toggler" class="view-all-btn">View Other Projects</a></h6>
-                <i class="fa fa-angle-down rotate"></i>
-            </div>
-        </div>
-        <div class="container">
-            <nav id="projects">
-                <ul class="projects-list">
-                    <li class="project-list-tile">
-                        <a class="project-title" href="https://hRyoma.github.io/portfolio/senior-project"><h6>
-                            Senior Project</h6>
-                        </a>
-                        <p class="project-description">A month-long internship at the ODU Virginia Modeling,
-                            Analysis, and Simulation Center.</p>
-                    </li>
-                    <li class="project-list-tile-separator">
-                        <hr>
-                    </li>
-                    <li class="project-list-tile">
-                        <a class="project-title" href="https://hRyoma.github.io/portfolio/tsef-2019"><h6>TSEF
-                            Project</h6></a>
-                        <p class="project-description">Rocket Payload Separation to Achieve a Target Apogee</p>
-                    </li>
-                    <li class="project-list-tile-separator">
-                        <hr>
-                    </li>
-                    <li class="project-list-tile">
-                        <a class="project-title" href="https://hRyoma.github.io/portfolio/evolving-race-cars">
-                            <h6>Evolving Race Cars</h6></a>
-                        <p class="project-description">An exploration into simple evolution simulation.</p>
-                    </li>
-                    <li class="project-list-tile-separator">
-                        <hr>
-                    </li>
-                    <li class="project-list-tile">
-                        <a class="project-title" href="https://hRyoma.github.io/portfolio/i-search"><h6>I-Search
-                            Project</h6></a>
-                        <p class="project-description">A look into mobile Android application development.</p>
-                    </li>
-                    <li class="project-list-tile-separator">
-                        <hr>
-                    </li>
-                    <li class="project-list-tile">
-                        <a class="project-title" href="https://hRyoma.github.io/portfolio/portfolio"><h6>Website
-                            Development</h6>
-                        </a>
-                        <p class="project-description">A detailing of my journey building this portfolio
-                            website.</p>
-                    </li>
-                    <li class="project-list-tile-separator">
-                        <hr>
-                    </li>
-                    <li class="project-list-tile">
-                        <a class="project-title" href="https://hRyoma.github.io/portfolio/create-task"><h6>AP
-                            CSP Create Task</h6>
-                        </a>
-                        <p class="project-description">A mobile app created using Flutter and Dart.</p>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        </section>
+        <section id="projects-nav-placeholder"></section>
     </article>
 
 </main>
@@ -232,8 +256,12 @@
 
 <script>
 $(function(){
+  $("#projects-nav-placeholder").load("../templates/projects-nav.html");
+});
+$(function(){
   $("#footer-placeholder").load("../templates/footer.html");
 });
+
 
 
 </script>
@@ -242,7 +270,6 @@ $(function(){
 <script type="text/javascript" src="../js/darkmode.js"></script>
 <script type="text/javascript" src="../js/nav.js"></script>
 <script type="text/javascript" src="../js/smoothscroll.js"></script>
-<script type="text/javascript" src="../js/projectslist.js"></script>
 <script type="text/javascript" src="../js/tableofcontents.js"></script>
 
 </html>
