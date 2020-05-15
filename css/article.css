@@ -1,73 +1,70 @@
-/* TITLE SECTION */
-#title-section {
-    background-position: center;
-    background-image: linear-gradient(-125deg, #2C3E50 0%, #4CA1AF 51%, #7474BF 100%);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    -webkit-backgournd-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: relative;
-}
-#title-section .container{
-    color: white;
-    margin: 0 auto;
-    padding-top: 150px;
-    padding-bottom: 60px;
-    position: relative;
+/* Code Formatting */
+code {
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    color: var(--c-secondary-text);
+    background-color: var(--c-primary-800);
 }
 
-/* TABLE OF CONTENTS */
-#toc {
-    border: solid var(--c-primary) 1px;
-    border-radius: 8px;
-    margin: 0 5% 0 5%;
+.code-block {
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    color: var(--c-primary-text);
+    background-color: var(--c-primary-800);
+    border-radius: 15px;
 }
-#toc #toc-toggler {
-    color: var(--c-secondary-text);
-    font-size: 28px;
+
+.code-block-header {
+    color: var(--c-primary-text);
+    background-color: var(--c-primary-700);
+    padding: 15px 25px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.code-block-content {
+    padding: 20px 25px 30px 25px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+
+/* Table of Contents Formatting */
+.toc {
+    border-radius: 15px;
+    background-color: var(--c-primary-800);
+}
+
+.toc-header {
+    color: var(--c-accent);
     text-align: center;
-    padding: 20px 0px;
-    cursor: pointer;
-}
-#toc #toc-toggler:hover {
-    color: var(--c-primary);
-}
-#toc i {
-    margin: 5px;
-}
-.rotate {
-    transform: rotate(0deg);
-    transition: .2s;
-}
-.rotate2 {
-    transform: rotate(-180deg);
-    transition: .2s;
+    background-color: var(--c-primary-700);
+    border-radius: 15px;
+    padding: 15px 25px;
 }
 
-#toc hr {
-    width: 60%;
-    margin-top: 0px;
+.toc-content {
+    padding: 20px 25px 30px 25px;
 }
-#toc #toc-content {
-    text-align: left;
-    overflow: hidden;
-}
-#toc ol li {
-    color: var(--c-secondary-text);
+
+.toc ol li {
+    color: var(--c-primary-text);
     list-style-type: upper-greek;
-    line-height: 1.5;
-    padding-left: 10px;
-}
-#toc li ol li {
-    color: var(--c-secondary-text);
-    list-style-type: upper-roman;
-    line-height: 1.5;
-    padding-left: 10px;
 }
 
-/* NOTES */
-article .section-wrapper li {
-    margin: 10px 0;
+.toc li ol li {
+    color: var(--c-primary-text);
+    list-style-type: upper-roman;
+}
+
+.toc a {
+    color: var(--c-secondary-text);
+}
+
+
+/* Project Cards */
+
+.project-card {
+    height: 300px;
+    width: 300px;
+    background-color: steelblue;
 }

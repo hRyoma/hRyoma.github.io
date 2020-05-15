@@ -5,39 +5,45 @@
     #home-section .container {
         padding: 1em 2em;
         position: relative;
-        top: 25vh;
-        border-left: 3px solid var(--c-gray-700);
-        border-right: 3px solid var(--c-gray-700);
+        top: 20vh;
     }
 
     #home-section #resume-link {
-        color: white;
+        color: var(--c-primary-text);
         background-color: none;
-        border: 1px solid white;
-        border-radius: 5px;
+        border: 1px solid var(--c-accent);
+        border-radius: 3px;
         padding: 0.5em 1em;
         text-decoration: none;
         transition: all 0.2s ease-in-out;
     }
 
         #home-section #resume-link:hover {
-            color: var(--c-primary);
-            border-color: var(--c-primary);
+            color: var(--c-accent);
         }
 
 .sm-links {
     position: absolute;
-    bottom: 3vh;
-    right: 3vh;
+    bottom: 3vmin;
+    left: auto;
+    right: 3vmin;
     z-index: 99;
 }
 
+@media (min-width: 900px) {
+    .sm-links {
+        right: auto;
+        left: 3vmin;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
     .sm-links .sm-btn {
-        margin: auto 20px;
-        font-size: 1.3em;
-        color: var(--c-secondary);
+        margin: 10px 10px;
+        color: var(--c-secondary-text);
     }
 
         .sm-links .sm-btn :hover {
-            color: var(--c-primary);
+            color: var(--c-accent);
         }

@@ -25,9 +25,12 @@ function scrollFunction() {
         if (prevScrollPos > currentScrollPos) {
             navbar.style.top = "0";
         } else {
-            navbar.style.top = "-80px";
-            $('.collapse').collapse('hide');
+            navbar.style.top = "-90px";
+            $('.collapse.navbar-collapse').collapse('hide');
         }
         prevScrollPos = currentScrollPos;
+    }
+    else {
+        $('.collapse.navbar-collapse').collapse('hide');
     }
 }

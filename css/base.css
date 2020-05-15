@@ -1,74 +1,49 @@
-/* COLOR THEME CSS */
+/* Colors */
 :root {
-    --c-gray-50: #F5F7FA;
-    --c-gray-100: #E4E7EB;
-    --c-gray-200: #CBD2D9;
-    --c-gray-300: #9AA5BA;
-    --c-gray-400: #7B8794;
-    --c-gray-500: #61637C;
-    --c-gray-600: #52606D;
-    --c-gray-700: #3E4C59;
-    --c-gray-800: #323F4B;
-    --c-gray-900: #1F2933;
-    --c-primary: #61A2C2;
-    --c-secondary: #BDBDBD;
+    --c-primary-50: #F5F7FA;
+    --c-primary-100: #E4E7EB;
+    --c-primary-200: #CBD2D9;
+    --c-primary-300: #9AA5BA;
+    --c-primary-400: #7B8794;
+    --c-primary-500: #61637C;
+    --c-primary-600: #52606D;
+    --c-primary-700: #3E4C59;
+    --c-primary-800: #323F4B;
+    --c-primary-900: #1F2933;
+    /* Primary Color */
+    --c-primary-50: #e2eafa;
+    --c-primary-100: #bcccde;
+    --c-primary-200: #97a8be;
+    --c-primary-300: #7287a0;
+    --c-primary-400: #586f8b;
+    --c-primary-500: #3d5876;
+    --c-primary-600: #314b66;
+    --c-primary-700: #223a51;
+    --c-primary-800: #14283c;
+    --c-primary-900: #031626;
+    /* Text Colors */
+    --c-primary-text: #e2eafa;
+    --c-secondary-text: #97a8be;
+    /* Indicator Colors */
+    --c-accent: #ffc61d;
     --c-confirm: #00897B;
     --c-warning: #303F9F;
     --c-remove: #C62828;
     --c-help: #673AB7;
 }
 
-/* TEXT CSS */
-h1, h2, h3, h4, h5, h6, p {
-    color: white;
-    margin: 0;
-    padding: 0;
-}
 
-h1 {
-    font-size: calc(1em * 1.3 * 1.3 * 1.3 * 1.3 * 1.3 * 1.3);
-    line-height: 0.85;
-}
-
-h2 {
-    font-size: calc(1em * 1.3 * 1.3 * 1.3 * 1.3 * 1.3);
-    line-height: 1;
-}
-
-h3 {
-    font-size: calc(1em * 1.3 * 1.3 * 1.3 * 1.3);
-}
-
-h4 {
-    font-size: calc(1em * 1.3 * 1.3 * 1.3);
-}
-
-h5 {
-    font-size: calc(1em * 1.3 * 1.3);
-}
-
-h6 {
-    font-size: calc(1em * 1.3);
-    font-style: normal;
-    line-height: 1.6;
-    letter-spacing: 0em;
-}
-
-p {
-    line-height: 1.5;
-}
-
-/* GENERAL CSS */
+/* General */
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    color: white;
-    font-family: "Montserrat";
+    color: var(--c-secondary-text);
+    font-family: "Open Sans", sans-serif;
     font-size: 100%;
-    line-height: 1.15;
-    background-color: var(--c-gray-900);
+    line-height: 1.3;
+    background-color: var(--c-primary-900);
     width: 100%;
     padding: 0;
     margin: 0;
@@ -78,4 +53,28 @@ body {
     .container {
         max-width: 750px;
     }
+}
+
+
+/* Text */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--c-primary-text);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 3.25em;
+    font-weight: bolder;
+}
+
+p {
+    color: var(--c-secondary-text);
+}
+
+span.highlight {
+    color: var(--c-primary-text);
+    font-weight: bolder;
+}
+.code-text {
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }

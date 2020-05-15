@@ -11,8 +11,11 @@
 
     <title>Ryoma Harris</title>
 
-    <!-- Montserrat Font -->
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat" />
+    <!-- Poppins Font -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins">
+
+    <!-- Open Sans Font -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
 
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -28,18 +31,19 @@
 
 <body>
 
-    <!--NAVBAR-->
-    <nav id="navbar-placeholder"></nav>
-
     <!--HOME SECTION-->
     <section id="home-section">
         <div class="container">
-            <h1>Hi, I'm Ryoma</h1>
+            <h6 class="code-text"><span style="color: var(--c-accent)">Hello, World</span>! My name is</h6>
+            <h1>Ryoma Harris.</h1>
             <br>
-            <p>I am a computer science major at the University of Pennsylvania.</p>
             <br>
             <br>
-            <a href="documents/RyomaHarris-Resume.pdf" target="_blank" id="resume-link">Résumé</a>
+            <p>I am a computer science major at the University of Pennsylvania, studying <span class="highlight">machine learning</span> and <span class="highlight">data science</span>.</p>
+            <br>
+            <br>
+            <br>
+            <a class="code-text" href="documents/RyomaHarris-Resume.pdf" target="_blank" id="resume-link">Résumé</a>
         </div>
         <div class="sm-links">
             <a class="sm-btn" onClick="javascript:window.open('mailto:ryoma.harris@gmail.com');event.preventDefault()" href="mailto:ryoma.harris@gmail.com" target="_blank"><span class="fa fa-envelope-o"></span></a>
@@ -48,13 +52,6 @@
         </div>
     </section>
 
-    <!--JAVASCRIPT-->
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script>
-        $(function () {
-            $("#navbar-placeholder").load("templates/nav-menu.html");
-        });
-    </script>
 
 </body>
 
