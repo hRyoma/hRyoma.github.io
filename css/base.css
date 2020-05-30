@@ -73,7 +73,7 @@ p {
 
 span.highlight {
     color: var(--c-primary-text);
-    font-weight: bolder;
+    font-weight: bold;
 }
 .code-text {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;

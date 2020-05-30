@@ -23,6 +23,7 @@
         }
 
 .sm-links {
+    font-size: 1.15em;
     position: absolute;
     bottom: 3vmin;
     left: auto;
