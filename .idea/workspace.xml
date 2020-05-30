@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffca9b4b-3dc7-4eae-91f9-a2c62b6d0566" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/Ryoma-Harris_Academic-Resume.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/RyomaHarris-Resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/documents/RyomaHarris-Resume.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/evolving-race-cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/evolving-race-cars.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/senior-project.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/senior-project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/tsef-2019.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/tsef-2019.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/nav-menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav-menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/equipotential.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/equipotential.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projects/equipotential.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="318" column="79" lean-forward="true" selection-start-line="318" selection-start-column="79" selection-end-line="318" selection-end-column="79" />
+            <state relative-caret-position="737">
+              <caret line="300" column="67" selection-start-line="300" selection-start-column="67" selection-end-line="300" selection-end-column="67" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -126,16 +117,15 @@
         <option value="$PROJECT_DIR$/css/projects/equipotential.css" />
         <option value="$PROJECT_DIR$/templates/nav-menu.html" />
         <option value="$PROJECT_DIR$/css/base.css" />
-        <option value="$PROJECT_DIR$/projects/equipotential.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/projects/equipotential.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="976" />
-    <option name="height" value="1216" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1207" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -241,10 +231,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1216" extended-state="6" />
+    <frame x="-7" y="0" width="974" height="1207" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1227608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24893162" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -465,8 +455,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/equipotential.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="318" column="79" lean-forward="true" selection-start-line="318" selection-start-column="79" selection-end-line="318" selection-end-column="79" />
+        <state relative-caret-position="737">
+          <caret line="300" column="67" selection-start-line="300" selection-start-column="67" selection-end-line="300" selection-end-column="67" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
