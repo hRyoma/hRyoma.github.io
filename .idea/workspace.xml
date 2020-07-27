@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffca9b4b-3dc7-4eae-91f9-a2c62b6d0566" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/RyomaHarris-Resume.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/portfolio/racecar_evo_cover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +84,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
@@ -113,6 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1566777617500</updated>
       <workItem from="1595716649107" duration="799000" />
+      <workItem from="1595874765121" duration="484000" />
     </task>
     <servers />
   </component>
@@ -129,6 +128,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="779" y="441" width="575" height="311" key="#Notifications" timestamp="1595716685283">
