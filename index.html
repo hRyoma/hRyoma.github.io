@@ -1,58 +1,62 @@
-﻿<!DOCTYPE html>
-
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
 
-    <!--TODO Website Icon/Logo-->
+    <!-- TODO: website icon/logo -->
+    <title>Ryoma</title>
 
-    <title>Ryoma Harris</title>
-
-    <!-- Poppins Font -->
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins">
-
-    <!-- Open Sans Font -->
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
-
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <!--CSS-->
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="css/topnav.css">
 
+    <script src="js/topnav.js" defer></script>
+</head>
 <body>
 
-    <!--HOME SECTION-->
-    <section id="home-section">
-        <div class="container">
-            <h6 class="code-text"><span style="color: var(--c-accent)">Hello, World</span>! My name is</h6>
-            <h1>Ryoma Harris.</h1>
-            <br>
-            <br>
-            <br>
-            <p>I am a computer science major at the University of Pennsylvania, studying <span class="highlight">artificial intelligence</span> and <span class="highlight">data science</span>.</p>
-            <br>
-            <br>
-            <br>
-            <a class="code-text" href="documents/RyomaHarris-Resume.pdf" target="_blank" id="resume-link">Résumé</a>
+<header id="topnav">
+    <nav class="navbar container">
+        <a class="nav-brand" href="/">ryoma</a>
+        <button type="button" class="navbar-toggle" aria-label="Open navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="nav-overlay"></div>
+        <div class="nav-menu">
+            <ul class="nav-links">
+                <li class="nav-link"><a href="/">home</a></li>
+                <li class="nav-link"><a href="projects/">projects</a></li>
+            </ul>
         </div>
+    </nav>
+</header>
+
+<main class="content">
+    <section id="landing-section">
+        <div class="container">
+            <p style="font-family: var(--font-monospace)"><span style="color: var(--c-accent)">Hello, World</span>! My name is</p>
+            <h1>Ryoma Harris</h1>
+            <p>I am a computer science major at the University of Pennsylvania.</p>
+            <!-- TODO: Add resume -->
+            <!-- <a href="" target="_blank" id="resume-link">Résumé</a> -->
+        </div>
+
         <div class="sm-links">
-            <a class="sm-btn" onClick="javascript:window.open('mailto:ryoma.harris@gmail.com');event.preventDefault()" href="mailto:ryoma.harris@gmail.com" target="_blank"><span class="fa fa-envelope-o"></span></a>
-            <a class="sm-btn" href="https://www.linkedin.com/in/ryomah/" target="_blank"><span class="fa fa-linkedin"></span></a>
-            <a class="sm-btn" href="https://github.com/hRyoma" target="_blank"><span class="fa fa-github"></span></a>
+            <!-- TODO: add email link
+            onClick="function"
+            function () {
+                window.open('mailto:ryoma.harris@gmail.com');
+                event.preventDefault()
+            }
+            href="mailto:ryoma.harris@gmail.com"
+            target="_blank"
+             -->
+            <a class="sm-btn" href="https://www.linkedin.com/in/ryomah/" target="_blank"><img src="img/icons/linkedin.png"></a>
+            <a class="sm-btn" href="https://github.com/hRyoma" target="_blank"><img src="img/icons/github.png"></a>
         </div>
     </section>
-
+</main>
 
 </body>
-
 </html>

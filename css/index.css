@@ -1,34 +1,28 @@
-#home-section {
-    height: 100vh;
+#landing-section .container {
+    padding: 1em 2em;
+    position: relative;
+    top: 20vh;
 }
 
-    #home-section .container {
-        padding: 1em 2em;
-        position: relative;
-        top: 20vh;
-    }
+#landing-section #resume-link {
+    color: var(--c-primary-text);
+    border: 1px solid var(--c-accent);
+    border-radius: 3px;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
 
-    #home-section #resume-link {
-        color: var(--c-primary-text);
-        background-color: none;
-        border: 1px solid var(--c-accent);
-        border-radius: 3px;
-        padding: 0.5em 1em;
-        text-decoration: none;
-        transition: all 0.2s ease-in-out;
-    }
-
-        #home-section #resume-link:hover {
-            color: var(--c-accent);
-        }
+#landing-section #resume-link:hover {
+    color: var(--c-accent);
+}
 
 .sm-links {
-    font-size: 1.15em;
     position: absolute;
     bottom: 3vmin;
     left: auto;
     right: 3vmin;
-    z-index: 99;
+    z-index: 2;
 }
 
 @media (min-width: 900px) {
@@ -40,11 +34,17 @@
     }
 }
 
-    .sm-links .sm-btn {
-        margin: 10px 10px;
-        color: var(--c-secondary-text);
-    }
+.sm-links .sm-btn {
+    margin: 10px;
+    overflow: hidden;
+}
 
-        .sm-links .sm-btn :hover {
-            color: var(--c-accent);
-        }
+.sm-links img {
+    opacity: 0.5;
+    width: 1.35em;
+    height: 1.35em;
+}
+
+.sm-links .sm-btn :hover {
+    opacity: 1;
+}

@@ -1,20 +1,18 @@
 /* Code Formatting */
 code {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    color: var(--c-secondary-text);
-    background-color: var(--c-primary-800);
+    font-family: var(--font-monospace);
+    background-color: var(--c-primary-2);
 }
 
 .code-block {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    color: var(--c-primary-text);
-    background-color: var(--c-primary-800);
+    font-family: var(--font-monospace);
+    background-color: var(--c-primary-2);
     border-radius: 15px;
 }
 
 .code-block-header {
     color: var(--c-primary-text);
-    background-color: var(--c-primary-700);
+    background-color: var(--c-primary-3);
     padding: 15px 25px;
     border-radius: 15px;
     display: flex;
@@ -31,13 +29,13 @@ code {
 /* Table of Contents Formatting */
 .toc {
     border-radius: 15px;
-    background-color: var(--c-primary-800);
+    background-color: var(--c-primary-2);
 }
 
 .toc-header {
     color: var(--c-accent);
     text-align: center;
-    background-color: var(--c-primary-700);
+    background-color: var(--c-primary-2);
     border-radius: 15px;
     padding: 15px 25px;
 }
@@ -60,11 +58,20 @@ code {
     color: var(--c-secondary-text);
 }
 
-
 /* Project Cards */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-gap: 1rem;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
 
-.project-card {
-    height: 300px;
-    width: 300px;
-    background-color: steelblue;
+.card {
+    background-color: var(--c-primary-2);
+    height: 20rem;
+    max-width: 40rem;
+    padding: 1.35em;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
