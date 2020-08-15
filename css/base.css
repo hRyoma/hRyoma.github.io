@@ -1,8 +1,8 @@
 :root {
     /* Primary Colors */
     --c-primary-1: #19283c;
-    --c-primary-2: #1f3551;
-    --c-primary-3: #84a9ac;
+    --c-primary-2: #253d5b;
+    --c-primary-3: #51767a;
     --c-primary-4: #e4e3e3;
 
     /* Accent Color */
@@ -17,13 +17,11 @@
     --font-monospace: "Menlo", Courier, monospace;
 
     /* Navbar Height */
-    --topnav-height: 64px;
+    --topnav-height: 53px;
 }
 
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 html {
@@ -33,73 +31,41 @@ html {
 body {
     color: var(--c-primary-text);
     font-family: var(--font-normal);
-    font-size: 1rem;
-    line-height: 1.5;
     background-color: var(--c-primary-1);
     margin: 0;
 }
 
 /* Font Styles */
 
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    font-weight: 600;
-    line-height: 1.2;
-}
+h1, h2, h3, h4, h5, h6 { font-weight: 700; }
 
-h1 {
-    font-size: calc(1.375rem + 1.5vw);
-}
+h1 { font-size: calc(2rem + 1.5vw); }
 
 @media (min-width: 1200px) {
-    h1 {
-        font-size: 2.5rem;
-    }
+    h1 { font-size: 2.5rem; }
 }
 
-h2 {
-    font-size: calc(1.325rem + 0.9vw);
-}
+h2 { font-size: calc(1.4rem + 0.9vw); }
 
 @media (min-width: 1200px) {
-    h2 {
-        font-size: 2rem;
-    }
+    h2 { font-size: 2rem; }
 }
 
-h3 {
-    font-size: calc(1.3rem + 0.6vw);
-}
+h3 { font-size: calc(1.3rem + 0.6vw); }
 
 @media (min-width: 1200px) {
-    h3 {
-        font-size: 1.75rem;
-    }
+    h3 { font-size: 1.75rem; }
 }
 
-h4 {
-    font-size: calc(1.275rem + 0.3vw);
-}
+h4 { font-size: calc(1.275rem + 0.3vw); }
 
 @media (min-width: 1200px) {
-    h4 {
-        font-size: 1.5rem;
-    }
+    h4 { font-size: 1.5rem; }
 }
 
-h5 {
-    font-size: 1.25rem;
-}
+h5 { font-size: 1.25rem; }
 
-h6 {
-    font-size: 1rem;
-}
-
-p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-}
+h6 { font-size: 1rem; }
 
 /* Container Styles */
 
@@ -145,4 +111,5 @@ p {
 
 main.content {
     padding-top: calc(var(--topnav-height) + 15px);
+    padding-bottom: 60px;
 }

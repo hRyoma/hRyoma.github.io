@@ -37,10 +37,10 @@
     cursor: pointer;
 }
 .proton {
-    background-color: FireBrick;
+    background-color: firebrick;
 }
 .electron {
-    background-color: SteelBlue;
+    background-color: steelblue;
 }
 
 #field {
@@ -63,19 +63,18 @@
     border: 2px solid var(--c-primary-3);
     border-radius: 5px;
     cursor: pointer;
-    padding: 6px 9px;
-    margin: 45px auto;
+    padding: 8px 15px;
+    margin: 60px auto;
     display: inline-block;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 .btn:hover {
     background-color: var(--c-primary-3);
-    transition: all 0.3s ease-in-out;
 }
 
 #graph {

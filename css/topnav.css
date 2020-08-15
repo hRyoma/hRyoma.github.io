@@ -47,20 +47,10 @@
 #topnav .icon-bar {
     background-color: var(--c-primary-text);
     height: 2px;
+    width: 25px;
     margin: 3px;
     display: block;
     transition: all 0.3s;
-}
-
-#topnav .navbar-toggle .icon-bar:first-child {
-    width: 25px;
-}
-#topnav .navbar-toggle .icon-bar:nth-child(2) {
-    width: 17px;
-    opacity: 1;
-}
-#topnav .navbar-toggle .icon-bar:last-child {
-    width: 13px;
 }
 
 #topnav .navbar-toggle:focus .icon-bar,
@@ -69,7 +59,6 @@
 }
 
 #topnav.opened .navbar-toggle .icon-bar:first-child {
-    width: 30px;
     margin-bottom: -5px;
     margin-right: -2px;
     transform: rotate(-45deg);
@@ -78,7 +67,6 @@
     opacity: 0;
 }
 #topnav.opened .navbar-toggle .icon-bar:last-child {
-    width: 30px;
     margin-top: -5px;
     margin-right: -2px;
     transform: rotate(45deg);

@@ -1,0 +1,36 @@
+/* Project Cards */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-gap: 1.5rem 2rem;
+    margin: 0 auto;
+}
+.card {
+    background-color: var(--c-primary-2);
+    min-height: 10rem;
+    max-width: 40rem;
+    padding: 1.35em;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card .title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.card button {
+    color: var(--c-primary-text);
+    font-size: 0.9rem;
+    font-family: var(--font-normal);
+    background-color: transparent;
+    border: 2px solid var(--c-primary-3);
+    border-radius: 4px;
+    padding: 6px 8px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.card button:hover {
+    color: var(--c-accent);
+    border-color: var(--c-accent);
+}
