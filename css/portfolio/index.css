@@ -26,6 +26,7 @@
     border: 2px solid var(--c-primary-3);
     border-radius: 4px;
     padding: 6px 8px;
+    margin-bottom: 30px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
@@ -33,4 +34,23 @@
 .card button:hover {
     color: var(--c-accent);
     border-color: var(--c-accent);
+}
+
+.tags {
+    display: inline;
+    padding: 0;
+    -webkit-padding-start: 0;
+}
+
+.tags li {
+    color: var(--c-secondary-text);
+    font-size: 0.8rem;
+    list-style-type: none;
+    line-height: 1.75rem;
+    white-space: nowrap;
+    background-color: var(--c-primary-1);
+    border: none;
+    border-radius: 10px;
+    padding: 2px 8px;
+    display: inline;
 }

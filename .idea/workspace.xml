@@ -20,19 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffca9b4b-3dc7-4eae-91f9-a2c62b6d0566" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/portfolio/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/projects/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/portfolio/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/projects/equipotential.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/portfolio/equipotential.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/topnav.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/topnav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/projects/equipotential.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/portfolio/equipotential.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/equipotential.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/equipotential.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/evolving-race-cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/evolving-race-cars.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/senior-project.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/computer-vision.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/tsef-2019.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/rocket-payload-separation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/portfolio/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/portfolio/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/equipotential.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/equipotential.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/evolving-race-cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/evolving-race-cars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/web-portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/web-portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,19 +76,6 @@
       <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\images" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -119,7 +99,8 @@
       <workItem from="1597334637156" duration="51000" />
       <workItem from="1597338802692" duration="9732000" />
       <workItem from="1597427760022" duration="7163000" />
-      <workItem from="1597508238469" duration="3596000" />
+      <workItem from="1597508238469" duration="3943000" />
+      <workItem from="1597589376518" duration="2111000" />
     </task>
     <servers />
   </component>
@@ -143,10 +124,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="779" y="441" width="575" height="311" key="#Notifications/1792.275.1130.811/0.23.1792.1097@0.23.1792.1097" timestamp="1595716685283" />
-    <state x="0" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597508456649">
+    <state x="0" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597590878417">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="0" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1597508456649" />
+    <state x="0" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1597590878417" />
     <state x="2095" y="423" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595717255285">
       <screen x="1792" y="252" width="1130" height="834" />
     </state>
@@ -155,9 +136,9 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="149" y="297" width="598" height="548" key="find.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1597339558611" />
-    <state x="262" y="222" width="670" height="676" key="search.everywhere.popup" timestamp="1597509652440">
+    <state x="262" y="222" width="670" height="676" key="search.everywhere.popup" timestamp="1597591228802">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="262" y="222" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1597509652440" />
+    <state x="262" y="222" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1597591228802" />
   </component>
 </project>
