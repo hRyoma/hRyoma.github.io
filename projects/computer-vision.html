@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
     <!-- Required meta tags -->
@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Ryoma | Computer Vision</title>
-
     <!--Website Icon/Logo (TODO: needs to be made and added)-->
 
     <!--Base CSS-->
@@ -37,1395 +36,311 @@
     </nav>
 </header>
 
-<section id="title-section">
-    <div class="container">
-        <h2>Senior Project</h2>
-        <h6>2019 - Present</h6>
-    </div>
-</section>
+<main class="content">
 
-<main id="main-content">
+    <section id="title-section">
+        <div class="container">
+            <h1>Senior Project</h1>
+            <h6>2019 - </h6>
+        </div>
+    </section>
 
-    <!--ARTICLE-->
-    <article>
-        <section>
-            <div class="section-wrapper">
-                <div id="overview" class="container section-head">
-                    <h3>Overview</h3>
-                </div>
-                <div class="container">
-                    <p>The senior project is a long-term project that begins in the junior year of high school. Students
-                        choose and research an area of interest and reach out to potential mentors. They then complete
-                        70 hours of professional work, which culminates in a final product.</p>
-                    <br>
-                    <p>For my senior project, I reached out to Dr. Padilla, a research assistant at Old Dominion
-                        University's Virginia Modeling, Analysis, and Simulation Center (VMASC).</p>
-                    <br>
-                    <p>Over the course of four weeks, I interned at VMASC, working on a project related to ODU's
-                        simulation software called CLOUDES. In order to make such software more accessible, I was tasked
-                        to design a physical complement to the web service so that it can be used by the
-                        visually-impaired. Additionally, I was tasked to begin developing software that would enable the
-                        physical pieces to be translated into a digital form via computer vision.</p>
-                </div>
-                <div class="container">
-                    <nav id="toc">
-                        <header id="toc-toggler" class="toc-header">
-                            Table of Contents
-                            <i class="fa fa-angle-down rotate"></i>
-                        </header>
-                        <div id="toc-content">
-                            <hr>
-                            <ol id="toc-list">
-                                <li><a href="#overview">Overview</a></li>
-                                <li><a href="#apr">About-Point-React</a>
-                                    <ol>
-                                        <li><a href="#apr-1">Python</a></li>
-                                        <li><a href="#apr-2">Artificial Intelligence (AI)</a></li>
-                                        <li><a href="#apr-5">Computer Vision (CV)</a></li>
-                                        <li><a href="#apr-6">OpenCV</a></li>
-                                        <li><a href="#apr-7">Final Report</a></li>
-                                    </ol>
-                                </li>
-                                <li><a href="#blog">Blog Entries</a>
-                                    <ol>
-                                        <li><a href="#week-1">Week 1 - August 5th, 7th, and 9th</a></li>
-                                        <li><a href="#week-2">Week 2 - August 12th, 14th, and 15th</a></li>
-                                        <li><a href="#week-3">Week 3 - August 19th, 21st, and 23rd</a></li>
-                                        <li><a href="#week-4">Week 4 - August 27th, 28th, and 29th</a></li>
-                                    </ol>
-                                </li>
-                            </ol>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="section-wrapper">
-                <div id="apr" class="container section-head">
-                    <h3>About-Point-React</h3>
-                </div>
-                <div class="container">
-                    <div id="apr-1" class="subsection-head">
-                        <h4>Python</h4>
-                    </div>
-                    <h5>About</h5>
-                    <br>
-                    <p>Python is a high-level programming language with general-use. Knowing that I will need to work
-                        with Python at some point this summer, I decided to research advanced Python topics.</p>
-                    <br>
-                    <br>
-                    <h5>Point</h5>
-                    <br>
-                    <p><b><u>PYTHON</u></b></p>
-                    <ul>
-                        <li>Interpreted language: no compilation and linking required</li>
-                        <li>Extensible language</li>
-                        <li><u>Code Style:</u>
-                            <ul>
-                                <li>Use 4-space indentation (no tabs)</li>
-                                <li>Wrap lines at max 79 characters</li>
-                                <li>Blank lines to separate functions, classes, larger blocks of code inside function
-                                </li>
-                                <li>Put comments on their own line whenever possible</li>
-                                <li>Use docstrings</li>
-                                <li><u>Naming Conventions:</u>
-                                    <ul>
-                                        <li>Classes: UpperCamelCase</li>
-                                        <li>Functions/Methods: lowercase_with_underscores</li>
-                                    </ul>
-                                </li>
-                                <li>Always use self as the first method argument name</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <p><b><u>CONTROL FLOWS</u></b></p>
-                    <ul>
-                        <li><u><code>if</code> Statements</u>
-                            <ul>
-                                <li>Can have optional <code>elif</code> and <code>else</code> part(s)</li>
-                                <li>Substitute for <code>switch/case</code> statements found in other languages</li>
-                            </ul>
-                        </li>
-                        <li><u><code>fpr</code> Statements:</u>
-                            <ul>
-                                <li>Iterates over items in a sequence</li>
-                                <li>If iterated sequence needs to be modified, first create a copy via
-                                    <code>list[:]</code></li>
-                            </ul>
-                        </li>
-                        <li><u><code>range()</code> Function:</u>
-                            <ul>
-                                <li>Generates arithmetic progressions</li>
-                                <li><code>range(start, stop, step)</code>
-                                    <ul>
-                                        <li>start: 0 if parameter not supplied</li>
-                                        <li>stop: always supplied</li>
-                                        <li>step: 1 if parameter not supplied</li>
-                                    </ul>
-                                </li>
-                                <li>Behaves like a list, but isn't one - it's an object that returns the sequence, but
-                                    does not create the list (saves space)
-                                </li>
-                                <li>Example Usage: <code>list(range(x))</code> -> creates a list</li>
-                            </ul>
-                        </li>
-                        <li><u><code>break</code> and <code>continue</code> Statements:</u>
-                            <ul>
-                                <li><code>break</code>: breaks out of the innermost enclosing <code>for</code> or <code>while</code>
-                                    loop
-                                </li>
-                                <li><code>continue</code>: continues with the next iteration</li>
-                            </ul>
-                        </li>
-                        <li><u><code>else</code> Clauses on Loops:</u>
-                            <ul>
-                                <li>Executed when the <code>for</code> loop terminates after iterating through a list
-                                </li>
-                                <li>Executed when the <code>while</code> loop condition becomes false</li>
-                                <li>Not executed when <code>break</code> is executed</li>
-                            </ul>
-                        </li>
-                        <li><u><code>pass</code> Statements:</u>
-                            <ul>
-                                <li>Does nothing</li>
-                                <li>Used when required by syntax, but not by action</li>
-                                <li>Used as a placeholder</li>
-                            </ul>
-                        </li>
-                        <li><u>Defining Functions:</u>
-                            <ul>
-                                <li><u><code>def funcName(parameters)</code>:</u>
-                                    <ul>
-                                        <li>When executed, a new symbol table for local variables (specific to the
-                                            function) is introduced
-                                        </li>
-                                        <li>When a variable is referenced, it first searches the local symbol table,
-                                            then that of the enclosing function, then the global one, then built-in
-                                            names
-                                        </li>
-                                        <li>Parameters/arguments are created where the function was called - the value
-                                            is an object reference, not the value itself
-                                        </li>
-                                        <li>All functions, even those without a <code>return</code> statement, are
-                                            functions: it
-                                            returns the value <code>None</code>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><u>Keyword Arguments:</u>
-                                    <ul>
-                                        <li><code>def funcName(parameter1, parameter2=x)</code></li>
-                                        <li>Specify a default value to argument(s)</li>
-                                        <li>Evaluated at the point of function definition in the defining scope</li>
-                                        <li>Evaluated only once</li>
-                                    </ul>
-                                </li>
-                                <li><u>Sub</u>
-                                    <ul>
-                                        <li><code>kwarg=value</code></li>
-                                        <li>Must follow positional arguments</li>
-                                        <li>Order does not matter</li>
-                                        <li>No argument can be referenced more than once</li>
-                                        <li><code>*name</code>: tuple of all positional arguments received</li>
-                                        <li><code>**name</code>: final formal parameter; dictionary of all keyword
-                                            arguments
-                                            received
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><u>Arbitrary Argument Lists:</u>
-                                    <ul>
-                                        <li>Arguments get wrapped up in a tuple</li>
-                                        <li>Often the last in list of formal parameters</li>
-                                    </ul>
-                                </li>
-                                <li><u>Unpacking Argument Lists:</u>
-                                    <ul>
-                                        <li>When arguments are already in a list/tuple</li>
-                                        <li>Use * operator to unpack</li>
-                                        <li>Use ** to unpack a dictionary of keyword arguments</li>
-                                    </ul>
-                                </li>
-                                <li><u>Lambda Expressions:</u>
-                                    <ul>
-                                        <li><code>lambda vars, listed: expression</code></li>
-                                        <li>References variables from the containing scope</li>
-                                        <li>Can be passed as an argument through a function</li>
-                                    </ul>
-                                </li>
-                                <li><u>Documentation Strings:</u>
-                                    <ul>
-                                        <li>First line: short, concise summary of object's purpose
-                                            <ul>
-                                                <li>Should not state object's name/type explicitly</li>
-                                                <li>Begin with a capital letter, end with a period</li>
-                                            </ul>
-                                        </li>
-                                        <li>Second line: left blank to visually separate the summary and description
-                                        </li>
-                                        <li>Following lines: paragraph(s) explaining object's calling conventions, side
-                                            effects, etc.
-                                        </li>
-                                        <li>Can be referenced via <code>func_name.__doc__</code></li>
-                                        <li>White space determined by first non-blank line</li>
-                                    </ul>
-                                </li>
-                                <li><u>Function Annotations:</u>
-                                    <ul>
-                                        <li>Optional metadata information about the types used</li>
-                                        <li>Can be referenced via <code>func_name.__annotations__</code></li>
-                                        <li>Is a dictionary that has no effect
-                                            <ul>
-                                                <li>Includes positional argument, keyword argument, and return value
-                                                </li>
-                                                <li>Ex: <code>{'var_name': &lt;class 'type'&gt;, 'return': &lt;class
-                                                    'type'&gt;}</code></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <p><b><u>DATA STRUCTURES</u></b></p>
-                    <ul>
-                        <li><u>Lists:</u>
-                            <ul>
-                                <li><u>Methods of List Objects:</u>
-                                    <ul>
-                                        <li><code>append(x)</code>: add item to end of list</li>
-                                        <li><code>extend(iterable)</code>: extend list by appending all items from
-                                            another list
-                                        </li>
-                                        <li><code>insert(i, x)</code>: insert an item at a position</li>
-                                        <li><code>remove(x)</code>: remove the first item in the list whose value is
-                                            equal to x
-                                        </li>
-                                        <li><code>pop([i])</code>: remove the item at a given position and return it;
-                                            removes last
-                                            item if index is not provided
-                                        </li>
-                                        <li><code>clear()</code>: remove all items in the list</li>
-                                        <li><code>index(x[, start[, end]])</code>: return index of first item with the
-                                            value x;
-                                            raises a ValueError if it does not exist
-                                        </li>
-                                        <li><code>count(x)</code>: return number of x's in the list</li>
-                                        <li><code>reverse()</code>: reverse the sequence of items in the list</li>
-                                        <li><code>copy()</code>: return a shallow copy of the list</li>
-                                    </ul>
-                                </li>
-                                <li><u>Lists as Stacks: </u>last-in, first-out</li>
-                                <li><u>Lists as Queues: </u>first-in, first-out
-                                    <ul>
-                                        <li>Lists are not efficient for queues - all other elements have to shift by
-                                            one
-                                        </li>
-                                        <li>Use collections.deque to implement a queue (has appends/pops from both ends
-                                            fairly efficient)
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><u>List Comprehensions: </u>concise method of list creation</li>
-                                <li><u>Nested List Comprehension: </u>any arbitrary expression including another list
-                                    comprehension
-                                </li>
-                            </ul>
-                        </li>
-                        <li><u><code>del</code> Statement: </u>remove an item from a list given its index (not value)
-                            <ul>
-                                <li>Can be used to delete entire variables</li>
-                            </ul>
-                        </li>
-                        <li><u>Tuples and Sequences: </u>a set of values
-                            <ul>
-                                <li>Use ()</li>
-                                <li>Tuples are immutable and often contain multiple types</li>
-                                <li>Tuple Packing: <code>t = 123, 321, 'abc'</code></li>
-                                <li>Tuple Unpacking: <code>a, b, c = t</code></li>
-                            </ul>
-                        </li>
-                        <li><u>Sets: </u>unordered collection with no duplicates
-                            <ul>
-                                <li>Use set() for an empty set - {} creates an empty dictionary</li>
-                                <li>Supports union, intersection, difference, symmetric difference</li>
-                                <li>Supports set comprehensions</li>
-                            </ul>
-                        </li>
-                        <li><u>Dictionaries: </u>key: value pairs
-                            <ul>
-                                <li>"associative memories" or "associative arrays"</li>
-                                <li>Indexed by keys (any immutable type)</li>
-                                <li>Supports dict comprehensions</li>
-                                <li>Can create via dict() function and keyword arguments (variable name becomes key)
-                                </li>
-                            </ul>
-                        </li>
-                        <li><u>Looping Techniques:</u>
-                            <ul>
-                                <li>Loop through key value pair via <code>for k, v in dictionary.items():</code></li>
-                                <li>Loop through sequence - retrieve index and value at the same time via <code>enumerate()</code>
-                                </li>
-                                <li>Loop through two or more sequences simultaneously via <code>zip()</code></li>
-                                <li>Loop through sequence in reverse via <code>reversed()</code></li>
-                                <li>Loop through sequences in sorted order via <code>sorted()</code></li>
-                            </ul>
-                        </li>
-                        <li><u>More on Conditions:</u>
-                            <ul>
-                                <li><u>Comparison Operators:</u>
-                                    <ul>
-                                        <li><code>in</code> and <code>not in</code>: check whether a value (does not)
-                                            occur in a sequence
-                                        </li>
-                                        <li><code>is</code> and <code>is not</code>: compare whether two values are
-                                            (not) the same object
-                                        </li>
-                                        <li>Priority is lower than that of all numerical operators</li>
-                                    </ul>
-                                </li>
-                                <li><u>Boolean Operators:</u>
-                                    <ul>
-                                        <li><code>and</code> and <code>or</code></li>
-                                        <li><code>not</code>: negates the outcome of a comparison</li>
-                                        <li>Priority: <code>not</code> has the highest, <code>or</code> has the lowest
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><u>Comparing Sequences and Other Types:</u>
-                            <ul>
-                                <li>Uses <i>lexicographical ordering</i>: comparison of corresponding items at a given
-                                    index in order
-                                </li>
-                                <li><u>Examples:</u>
-                                    <ul>
-                                        <li>(1, 2, 3) &lt; (1, 2, 4)</li>
-                                        <li>'ABC' &lt; 'C' &lt; 'Pascal' &lt; 'Python'</li>
-                                        <li>(1, 2, 3, 4) &lt; (1, 2, 4)</li>
-                                        <li>(1, 2) &lt; (1, 2, -1)</li>
-                                        <li>(1, 2) == (1.0, 2.0)</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <br>
-                    <br>
-                    <h5>React</h5>
-                    <br>
-                    <p>I found that there were many functions in Python of which I was unaware. Also, by reading the
-                        official documentations, I was able to get a deeper understanding of the topics that I already
-                        knew. I am sure that these will be helpful later on my senior project, or in the least, in
-                        future projects.</p>
-                    <br>
-                    <br>
-                    <h5>References</h5>
-                    <br>
+    <section id="overview-section">
+        <div class="container">
+            <h3>Overview</h3>
+            <p>The senior project is a long-term project that begins in the junior year of high school. Students
+                choose and research an area of interest and reach out to potential mentors. They then complete
+                70 hours of professional work, which culminates in a final product.</p>
+            <p>For my senior project, I reached out to Dr. Padilla, a research assistant at Old Dominion
+                University's Virginia Modeling, Analysis, and Simulation Center (VMASC).</p>
+            <p>Over the course of four weeks, I interned at VMASC, working on a project related to ODU's
+                simulation software called CLOUDES. In order to make such software more accessible, I was tasked
+                to design a physical complement to the web service so that it can be used by the
+                visually-impaired. Additionally, I was tasked to begin developing software that would enable the
+                physical pieces to be translated into a digital form via computer vision.</p>
+        </div>
+        <div class="container">
+            <h3>Table of Contents</h3>
+            <ol class="toc-list">
+                <li><a href="#">Blog Entries</a>
                     <ol>
-                        <li><a href="https://docs.python.org/3/tutorial/introduction.html">https://docs.python.org/3/tutorial/introduction.html</a>
-                        </li>
-                        <li><a href="https://docs.python.org/3/tutorial/controlflow.html">https://docs.python.org/3/tutorial/controlflow.html</a>
-                        </li>
-                        <li><a href="https://docs.python.org/3/tutorial/datastructures.html">https://docs.python.org/3/tutorial/datastructures.html</a>
-                        </li>
+                        <li><a href="#">Week 1</a></li>
+                        <li><a href="#">Week 2</a></li>
+                        <li><a href="#">Week 3</a></li>
+                        <li><a href="#">Week 4</a></li>
                     </ol>
-                </div>
-                <div class="container">
-                    <div id="apr-2" class="subsection-head">
-                        <h4>Artificial Intelligence (AI)</h4>
-                    </div>
-                    <h5>About</h5>
-                    <br>
-                    <p>AI is a field of computer science that deals with giving machines the "ability to think" like a
-                        human. Before I research computer vision, I must first understand the fundamentals of AI.</p>
-                    <br>
-                    <br>
-                    <h5>Point</h5>
-                    <br>
-                    <p><b><u>General Information</u></b></p>
-                    <ul>
-                        <li><u>Applications:</u>
-                            <ul>
-                                <li>Healthcare industry - dosing drugs, patient treatments, surgical procedures</li>
-                                <li>Financial industry - detect and flag suspicious activity, streamline trade</li>
-                                <li>Chess</li>
-                                <li>Self-driving cars</li>
-                            </ul>
-                        </li>
-                        <li><u>Categories:</u>
-                            <ul>
-                                <li>Weak: designed to carry out a specific task</li>
-                                <li>Strong: designed to carry out tasks like a human</li>
-                            </ul>
-                        </li>
-                        <li><u>Controversy:</u>
-                            <ul>
-                                <li>AI may become superior to humans</li>
-                                <li>Ethical issue: should robots have human rights?</li>
-                                <li>Human employment</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <p><b><u>COMPUTING MACHINERY AND INTELLIGENCE by Alan M. Turing (1950)</u></b></p>
-                    <ul>
-                        <li><u>Imitation Game:</u>
-                            <ul>
-                                <li>"Can machines think?"</li>
-                                <li>Interrogator must correctly identify between A and B which one is human, which one
-                                    is machine.
-                                </li>
-                                <li>Assumption: machine will provide answers as naturally as a human</li>
-                            </ul>
-                        </li>
-                        <li><u>Imitation Game:</u>
-                            <ol>
-                                <li><b>Store: </b>store information</li>
-                                <li><b>Executive Unit: </b>carry out individual operations</li>
-                                <li><b>Control: </b>ensures instructions are correctly executed in sequence</li>
-                            </ol>
-                        </li>
-                        <li><u>Universal Machine</u>
-                            <ul>
-                                <li>Digital computers that can mimic any discrete-state machine</li>
-                                <li>Only need this to do all tasks</li>
-                            </ul>
-                        </li>
-                        <li><i>"We can only see a short distance ahead, but we can see plenty there that needs to be
-                            done"</i> - Alan Turing
-                        </li>
-                    </ul>
-                    <br>
-                    <br>
-                    <h5>React</h5>
-                    <br>
-                    <p>I did not find the general information on AI very surprising. However, after reading Alan
-                        Turing's 22 page paper was quite interesting, especially as he discusses modern computer science
-                        topics in 1950. Much of his paper dealt with counterarguments and refutes. However, some of his
-                        core ideas may be worth reviewing later on, as these are still fundamental ideas today.</p>
-                    <br>
-                    <br>
-                    <h5>References</h5>
-                    <br>
-                    <ol>
-                        <li><a href="https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp">https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp</a>
-                        </li>
-                        <li><a href="https://www.csee.umbc.edu/courses/471/papers/turing.pdf">https://www.csee.umbc.edu/courses/471/papers/turing.pdf</a>
-                        </li>
-                        <li><a href="https://www.youtube.com/watch?v=aircAruvnKk">https://www.youtube.com/watch?v=aircAruvnKk</a>
-                        </li>
-                    </ol>
-                </div>
-                <div class="container">
-                    <div id="apr-5" class="subsection-head">
-                        <h4>Computer Vision (CV)</h4>
-                    </div>
-                    <h5>About</h5>
-                    <br>
-                    <p>Computer vision (CV) is the subfield of AI that I will be working with in this project. To better
-                        understand its innerworkings, I will research its various parts and applications. I hope that
-                        this will also provide me with some inspiration for future research.</p>
-                    <br>
-                    <br>
-                    <h5>Point</h5>
-                    <br>
-                    <p><b><u>General Information</u></b></p>
-                    <ul>
-                        <li>A subfield of artificial intelligence and machine learning
-                            <ul>
-                                <li>Interpret + understand the visual world</li>
-                            </ul>
-                        </li>
-                        <li>Image Processing: creation of image from a preexisting one
-                            <ul>
-                                <li>Computer does not understand it</li>
-                            </ul>
-                        </li>
-                        <li>Challenges
-                            <ul>
-                                <li>Incomplete understanding of human vision</li>
-                                <li>Complexities in the visual world: orientation, lighting conditions, etc.</li>
-                            </ul>
-                        </li>
-                        <li>Applications
-                            <ul>
-                                <li>Image Segmentation</li>
-                                <li>Facial Recognition</li>
-                                <li>Edge Detection</li>
-                                <li>Pattern Detection</li>
-                                <li>Image Classification</li>
-                                <li>Feature Matching</li>
-                                <li>Object Identification</li>
-                                <li>Object Verification</li>
-                                <li>Object Detection</li>
-                                <li>Object Landmark Detection</li>
-                                <li>Object Recognition</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <p><b><u>K-Nearest Neighbors (KNN)</u></b></p>
-                    <ul>
-                        <li>Identifying based on pixels in the proximity</li>
-                        <li>A single template cannot be applied to all cases</li>
-                    </ul>
-                    <p><b><u>Linear Classifiers</u></b></p>
-                    <ul>
-                        <li>Parametric approach (every pixel value is a parameter)</li>
-                        <li>Weighted sum of the pixel value</li>
-                        <li>A single template cannot be applied to all cases</li>
-                    </ul>
-                    <p><b><u>Activation Function</u></b></p>
-                    <ul>
-                        <li><u>Sigmoid Function</u>
-                            <ul>
-                                <li>σ(x) = 1/(1+e-x)</li>
-                                <li>Input: (0, 1)</li>
-                                <li><u>Issues:</u>
-                                    <ul>
-                                        <li>Saturated neurons kill the gradient</li>
-                                        <li>Output is (0, 1), not centered at 0</li>
-                                        <li>Exponential calculations require more computational power</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><u>tanh Activation:</u>
-                            <ul>
-                                <li>Benefit over sigmoid function:</li>
-                                <li><u>Issue:</u>
-                                    <ul>
-                                        <li>Still kills the gradient</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><u>Rectified Linear Unit (ReLU):</u>
-                            <ul>
-                                <li>y = max(0, x)</li>
-                                <li>All negative values become zero (remove all black)</li>
-                                <li>Simple thresholding -> more computationally efficient</li>
-                                <li><u>Issues:</u>
-                                    <ul>
-                                        <li>Output is not zero-centered</li>
-                                        <li>No gradient at x<0 (leaky ReLU and parametric ReLU can mitigate this)</li>
-                                        <li>No gradient at x=0</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <p><b><u>Weight Initialization:</u></b></p>
-                    <ul>
-                        <li><u>All Zeros:</u>
-                            <ul>
-                                <li>Often bad idea - neurons generate the same output</li>
-                            </ul>
-                        </li>
-                        <li><u>Gaussian Random Variables:</u>
-                            <ul>
-                                <li>Works for shallow networks, not for deep networks</li>
-                            </ul>
-                        </li>
-                        <li><u>Xavier Initialization:</u>
-                            <ul>
-                                <li>Variance of Gaussian distribution of weights depends on number of layer inputs</li>
-                                <li><u>Recommended: sqrt(inputs)</u>
-                                    <ul>
-                                        <li><code>np.random.randn(n_in, n_out)*sqrt(2/n_in)</code></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <p><b><u>Convolutional Neural Networks (CNNs or ConvNets):</u></b></p>
-                    <ul>
-                        <li><u>Convolution Layer:</u>
-                            <ul>
-                                <li>image height * image width * 3 deep (RGB)</li>
-                                <li>Filter: black/cuboid with smaller height and width, but same depth</li>
-                                <li>WTX + b = new value, the weighted sum of the pixels</li>
-                                <li>Each filter is an activation map - n filters create n stacked activation maps</li>
-                                <li>Output size = (N-F)/S + 1</li>
-                            </ul>
-                        </li>
-                        <li><u>Pooling Layer:</u>
-                            <ul>
-                                <li>Taking regions of the image and combining it to one pixel, via mean, maximum, etc.
-                                </li>
-                            </ul>
-                        </li>
-                        <li><u>Fully Connected Layer:</u>
-                            <ul>
-                                <li>Each pixel = separate neuron</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <br>
-                    <br>
-                    <h5>React</h5>
-                    <br>
-                    <p>After studying computer vision further, I found that there are many layers to it. I find that
-                        there is a lot of linear algebra nested in this field. This may be a good area to research
-                        further if I want to dive into the low level aspect of the code. Perhaps rather than using CV in
-                        a future research project, I can instead research an aspect of CV.</p>
-                    <br>
-                    <br>
-                    <h5>References</h5>
-                    <br>
-                    <ol>
-                        <li><a href="https://www.sas.com/en_us/insights/analytics/computer-vision.html#technical">https://www.sas.com/en_us/insights/analytics/computer-vision.html#technical</a>
-                        </li>
-                        <li><a href="https://blog.algorithmia.com/introduction-to-computer-vision">https://blog.algorithmia.com/introduction-to-computer-vision</a>
-                        </li>
-                        <li>
-                            <a href="https://www.analyticsvidhya.com/blog/2016/04/deep-learning-computer-vision-introduction-convolution-neural-networks/">https://www.analyticsvidhya.com/blog/2016/04/deep-learning-computer-vision-introduction-convolution-neural-networks/</a>
-                        </li>
-                        <li><a href="https://www.sciencedirect.com/science/article/pii/S1474034618305275">https://www.sciencedirect.com/science/article/pii/S1474034618305275</a>
-                        </li>
-                    </ol>
-                </div>
-                <div class="container">
-                    <div id="apr-6" class="subsection-head">
-                        <h4>OpenCV</h4>
-                    </div>
-                    <h5>About</h5>
-                    <br>
-                    <p>OpenCV is an open-source software library. It is written in C/C++, but there is a Python wrapper
-                        version available for use. To get a better sense of it before beginning to program, I will
-                        explore its core functionalities.</p>
-                    <br>
-                    <br>
-                    <h5>Point</h5>
-                    <br>
-                    <p><b><u>Basic Operations</u></b></p>
-                    <ul>
-                        <li>Load an image and access its properties</li>
-                        <div class="code-block">
-                            <div class="code-block-header">
-                                <div class="code-block-file">main.java</div>
-                                <div class="code-block-language">Java</div>
-                            </div>
-                            <hr>
-                            <div></div>
-                            <div class="code-block-content">
-                                <code>img = cv2.imread('image.jpg')</code><br>
-                                <code>img.shape&emsp;&emsp;#returns a tuple of the number of rows, cols, and
-                                    channels</code><br>
-                                <code>img.size &emsp;&emsp;#returns the total number of pixels</code><br>
-                                <code>img.dtype&emsp;&emsp;#returns the image datatype</code>
-                            </div>
-                        </div>
-                        <li>ROI (region of images)</li>
-                        <li>Split and merge image channels
-                            <ul>
-                                <li><code>cv2.split(img)</code></li>
-                                <li><code>cv2.merge((b, g, r))</code></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <p><b><u>Arithmetic Operations</u></b></p>
-                    <ul>
-                        <li><u>Iamge Blending</u>
-                            <ul>
-                                <li><code>cv2.addWeighted(img1, alpha, img2, 1-alpha, 0)</code></li>
-                            </ul>
-                        </li>
-                        <li><u>Bitwise Opeartions</u>
-                            <ul>
-                                <li>AND, OR, NOT, XOR</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <p><b><u>Performance Measurement and Improvement Techniques</u></b></p>
-                    <ul>
-                        <li><u>Performance Measurement</u>
-                            <ul>
-                                <li><code>cv2.getTickCount()</code>
-                                    <ul>
-                                        <li>Number of clock-cycles post reference event</li>
-                                    </ul>
-                                </li>
-                                <li><code>cv2.getTickFrequency()</code>
-                                    <ul>
-                                        <li>Frequency of clock-cycles</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <div class="code-block">
-                            <div class="code-block-header">
-                                <div class="code-block-file">main.java</div>
-                                <div class="code-block-language">Java</div>
-                            </div>
-                            <hr>
-                            <div></div>
-                            <div class="code-block-content">
-                                <code>e1 = cv2.getTickCount()</code><br>
-                                <code># a block of code to be executed</code><br>
-                                <code>e2 = cv2.getTickCount()</code><br>
-                                <br>
-                                <code># get the execution time of the block of code</code><br>
-                                <code>time = (e2 - e1) / cv2.getTickFrequency()</code>
-                            </div>
-                        </div>
-                        <li><u>Optimization</u>
-                            <ul>
-                                <li><code>cv2.useOptimized()</code>
-                                    <ul>
-                                        <li>Check if it is enabled/disabled</li>
-                                    </ul>
-                                </li>
-                                <li><code>cv2.setUseOptimize()</code>
-                                    <ul>
-                                        <li>Set it to enabled/disabled</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><u>Optimization Techniques</u>
-                            <ul>
-                                <li>Avoid loops (especially nested)</li>
-                                <li>Vectorize algorithms/code because Numpy + OpenCV are optimized for vector
-                                    operations
-                                </li>
-                                <li>Exploit cache coherence</li>
-                                <li>Don't make copies of arrays unless needed</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <p><b><u>Image Processing</u></b></p>
-                    <ul>
-                        <li><u>Changing Colorspaces</u>
-                            <ul>
-                                <li><code>cv2.cvtColor(input_image, flag)</code></li>
-                                <li><u>Flags:</u>
-                                    <ul>
-                                        <li><code>cv2.COLOR_BGR2GRAY</code></li>
-                                        <li><code>cv2.COLOR_BGR2HSV</code></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><u>Geometric Transformations</u>
-                            <ul>
-                                <li><u>Transformations</u>
-                                    <ul>
-                                        <li><code>cv2.warpAffine()</code></li>
-                                        <li><code>cv2.warpPerspective()</code></li>
-                                    </ul>
-                                </li>
-                                <li><u>Scaling</u>
-                                    <ul>
-                                        <li><code>cv2.warpPerspective()</code>
-                                            <ul>
-                                                <li><code>cv2.INTER_AREA</code>: shrinking</li>
-                                                <li><code>cv2.INTER_CUBIC</code> and <code>cv2.INTER_LINEAR</code>:
-                                                    zooming
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><u>Translation</u>
-                                    <ul>
-                                        <li><code>M = np.float32([1, 0, x], [0, 1, y])</code></li>
-                                        <li><code>cv2.warpAffine(img, M, (cols, rows))</code></li>
-                                    </ul>
-                                </li>
-                                <li><u>Rotation</u>
-                                    <ul>
-                                        <li><code>cv2.getRotationMatrix2D()</code></li>
-                                    </ul>
-                                </li>
-                                <li><u>Perspective Transformation</u>
-                                    <ul>
-                                        <li><code>cv2.getPerspectiveTransform()</code></li>
-                                        <li><code>cv2.warpPerspective()</code></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><u>Image Thresholding</u>
-                            <ul>
-                                <li><u>Simple Thresholding</u>
-                                    <ul>
-                                        <li>Pixel value > threshold value --> assigned x</li>
-                                        <li>Pixel value < threshold value --> assigned y</li>
-                                        <li><code>cv2.threshold()</code>
-                                            <ul>
-                                                <li><code>cv2.THRESH_BINARY</code></li>
-                                                <li><code>cv2.THRESH_BINARY_INV</code></li>
-                                                <li><code>cv2.THRESH_TRUNC</code></li>
-                                                <li><code>cv2.THRESH_TOZERO</code></li>
-                                                <li><code>cv2.THRESH_TOZERO_INV</code></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><u>Adaptive Thresholding</u>
-                                    <ul>
-                                        <li>Algorithm calculates the threshold for a small region of the image</li>
-                                        <li>Better when an image has areas of varying illumination</li>
-                                        <li><code>cv2.ADAPTIVE_THRESH_MEAN_C</code></li>
-                                        <li><code>cv2.ADAPTIVE_THRESH_GAUSSIAN_C</code></li>
-                                    </ul>
-                                </li>
-                                <li><u>Otsu's Binarization</u>
-                                    <ul>
-                                        <li>Used when a an image is bimodal - has a histogram with two distinct peaks
-                                        </li>
-                                        <li>The threshold is the value between the two peaks</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><u>Smoothing Images</u>
-                            <ul>
-                                <li><u>2D Convolution (Image Filtering)</u>
-                                    <ul>
-                                        <li><code>cv2.filter2D()</code></li>
-                                        <li>Each pixel becomes the average of the kernel</li>
-                                    </ul>
-                                </li>
-                                <li><u>Image Blurring (Image Soothing)</u>
-                                    <ul>
-                                        <li>Useful for removing noise</li>
-                                        <li><u>Averaging</u>
-                                            <ul>
-                                                <li>Taking the average of the kernel of the pixel in question and
-                                                    replacing its value with the mean
-                                                </li>
-                                                <li><code>cv2.blur()</code></li>
-                                                <li><code>cv2.boxFilter()</code></li>
-                                            </ul>
-                                        </li>
-                                        <li><u>Gaussian Filtering</u>
-                                            <ul>
-                                                <li>Useful for removing Gaussian noise</li>
-                                                <li><code>cv2.getGaussianKernel()</code></li>
-                                                <li><code>cv2.GaussianBlur()</code></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><u>Median Filtering</u>
-                                    <ul>
-                                        <li>Take the median of the pixels of a kernel and replace the pixel value with
-                                            the determined median
-                                        </li>
-                                        <li>Kernel must be a positive odd integer</li>
-                                        <li>Removes noise effectively</li>
-                                        <li><code>cv2.medianBlur()</code></li>
-                                    </ul>
-                                </li>
-                                <li><u>Bilateral Filtering</u>
-                                    <ul>
-                                        <li>Great for noise removal without blurring edges</li>
-                                        <li>Slower than other filters</li>
-                                        <li>Gaussian function of space: ensures only 'spatial neighbor' pixels are
-                                            considered for filtering
-                                        </li>
-                                        <li>Gaussian function of intensity differences: ensures only 'intensity
-                                            neighbor' pixels are considered for filtering
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><u>Morphological Transformations</u>
-                            <ul>
-                                <li><u>Erosion</u>
-                                    <ul>
-                                        <li>Erodes boundaries of an object</li>
-                                        <li>Decreases white space</li>
-                                        <li><code>cv2.erode()</code></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li><u>Dilation</u>
-                                    <ul>
-                                        <li>Increases white space</li>
-                                        <li><code>cv2.dilate()</code></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li><u>Opening</u>
-                                    <ul>
-                                        <li>Erosion followed by dilation</li>
-                                        <li>Useful for removing noise</li>
-                                        <li><code>cv2.morphologyEx()</code></li>
-                                        <li><code>cv2.MORPH_OPEN</code></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li><u>Closing</u>
-                                    <ul>
-                                        <li>Dilation followed by erosion</li>
-                                        <li>Useful for closing small holes/black points in foreground objects</li>
-                                        <li><code>cv2.morphologyEx()</code></li>
-                                        <li><code>cv2.MORPH_CLOSE</code></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li><u>Morphological Gradient</u>
-                                    <ul>
-                                        <li>Difference between dilation and erosion of an image</li>
-                                        <li><code>cv2.morphologyEx()</code></li>
-                                        <li><code>cv2.MORPH_GRADIENT</code></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li><u>Top Hat</u>
-                                    <ul>
-                                        <li>Difference between input image and opening of image</li>
-                                        <li><code>cv2.morphologyEx()</code></li>
-                                        <li><code>cv2.MORPH_TOPHAT</code></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li><u>Black Hat</u>
-                                    <ul>
-                                        <li>Difference between closing of image and input image</li>
-                                        <li><code>cv2.morphologyEx()</code></li>
-                                        <li><code>cv2.MORPH_BLACKHAT</code></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li><u>Structuring Element</u>
-                                    <ul>
-                                        <li>For getting desired shape + size of kernel</li>
-                                        <li><code>cv2.getSTructuringElement()</code></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><u>Image Gradients</u>
-                            <ul>
-                                <li><u>Sobel and Scharr Derivatives</u>
-                                    <ul>
-                                        <li>More resistant to noise</li>
-                                        <li>Joint Gaussian smoothing + differentiation operation</li>
-                                        <li>Can specify direction of derivatives (vertical/horizontal)</li>
-                                    </ul>
-                                </li>
-                                <li><u>Laplacian Derivatives</u>
-                                    <ul>
-                                        <li>Calculated by each derivative, which is found via Sobel derivatives</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><u>Canny Edge Detection</u>
-                            <ol>
-                                <li>Noise reduction</li>
-                                <li>Find intensity gradient of image</li>
-                                <li>Non-maximum suppression</li>
-                                <li>Hysteresis thresholding: discard any edges that exceed minVal or maxVal</li>
-                                <li><code>cv2.Canny()</code></li>
-                            </ol>
-                        </li>
-                    </ul>
-                    <br>
-                    <br>
-                    <h5>React</h5>
-                    <br>
-                    <p>There were many more image transformation functions than I expected. I think that I understand
-                        the concepts of kernels and Gaussian distributions, but I may need to review this once again.
-                        Overall, I think that this information that I researched will be very valuable as I now have a
-                        better understanding of the purpose of each type of function and the methods used for curating
-                        images.</p>
-                    <br>
-                    <p>Also, I discovered from this that linear algebra is even more prevalent in CV. The two types of
-                        image gradients (Sobel/Scharr derivatives and Laplachain derivatives), I did not understand. I
-                        have a vague idea of how it works, but I could not discern the math behind it. I do not think
-                        that this knowledge is necessary for this internship, but this opens another avenue for further
-                        research.</p>
-                    <br>
-                    <br>
-                    <h5>References</h5>
-                    <br>
-                    <ol>
-                        <li><a href="https://docs.opencv.org/master/d9/df8/tutorial_root.html">https://docs.opencv.org/master/d9/df8/tutorial_root.html</a>
-                        </li>
-                        <li>
-                            <a href="https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html">https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html</a>
-                        </li>
-                    </ol>
-                </div>
-                <div class="container">
-                    <div id="apr-7" class="subsection-head">
-                        <h4>Final Report: Developing a Physical Complement to the CLOUDES Web Service for the Visually
-                            Impaired</h4>
-                    </div>
-                    <h5>Introduction</h5>
-                    <br>
-                    <p>Over the past decade, the Internet has made countless services available to millions of people.
-                        However, this virtual world remains largely inaccessible to the visually impaired, those who
-                        have a functionally limited eyesight as a consequence of a disease or disorder[1].</p>
-                    <br>
-                    <p>One such service is CLOUDES, a web service for creating simulations. Its visual-based interface
-                        makes it user-friendly, promoting use by non-professionals and students. In order to make it
-                        accessible to the visually impaired, physical representations of the digital interface were
-                        explored. Tactile components would enable the visually impaired to create a physical model,
-                        which can be translated into the CLOUDES web service via computer vision processing of the
-                        image.</p>
-                    <br>
-                    <br>
-                    <h5>Discussion</h5>
-                    <br>
-                    <p>In CLOUDES, several different types of elements can be added to the simulation model such as
-                        Arrival, Queue, Process, and Exit. The user can then connect each element together to create the
-                        correct sequence of the procedure. The physical model sought to maintain this through unique
-                        pieces for each element, which can be put together like a puzzle. A previous design used
-                        circular-shaped tabs to connect pieces, which allowed flexibility in motion. However, a
-                        trapezoidal shape was used to preserve the rigid uniformity in the constructed model.</p>
-                    <br>
-                    <p>As each element in the CLOUDES software could be parameterized, characterizing the behavior
-                        of each step in the process, chips were designed to be placed onto each piece. Each piece had a
-                        unique shape corresponding to its function: hexagons corresponded to distribution specifiers,
-                        triangles corresponded to actions, etc. Simple geometric shapes were used for the chips as a
-                        study done by researchers from the Transworld Institute of Technology in Taiwan had found
-                        them to be more easily identified than complex icons by touch[2]. Each chip also had a unique
-                        embossing of a letter or number to further specify its function. A braille alternative was
-                        developed as well. Engravings were originally considered but opted against as most prints use
-                        embossing, making it more familiar to the visually impaired.</p>
-                    <br>
-                    <p>To further assist in braille recognition, standard braille dimensions from the National Library
-                        Service for the Blind and Physically Handicappped were observed[3]. The final design used sizes
-                        which scaled to be 1.5 times larger than standard to enhance computer vision performance and to
-                        maintain relative distances between dots. The dot diameter was increased from 1.6 mm to 2.4
-                        mm and dot base spacing was increased to 3.6 mm. However, to prevent potentially rough
-                        braille, the dot height remained unscaled at 0.9 mm. Additionally, these dots were made of
-                        hemispheres rather than cylinders to also reduce roughness.</p>
-                    <br>
-                    <p>The physical design was also flat to reduce as much use of materials. It also had rounded corners
-                        to be more gentle to the touch.</p>
-                    <br>
-                    <p>To enable a computer to recognize the pieces and chips from an image, OpenCV, an open source
-                        package with tools for real-time computer vision, was explored. The idea was to identify each
-                        piece of the model using its unique shape and color, then to identify each chip and its
-                        corresponding braille or character embossing. This data could then be converted into the
-                        CLOUDES web service to run the simulation.</p>
-                    <br>
-                    <p>A morphological transformation on the image best created the outline of the shapes. However,
-                        due to little contrast in color between the embossings and the chips itself, it was challenging
-                        to highlight the key features of the model. Additionally, the wood grains of the desk in the
-                        background and even the layers of 3D-printed material added to noise to the image.</p>
-                    <br>
-                    <p>Although character recognition is widely accessible, braille recognition remains somewhat
-                        unexplored. A paper from King Saud University outlines the image transformation steps that has
-                        yielded a more efficient recognition of braille cells[4]. The process involves first rotating
-                        the image to align the braille vertically and horizontally, detecting each dot, and then
-                        recognizing each cell. Each cell could be identified by segmenting then constructing lines in
-                        regular intervals according to a scale. The intersection of the dots and lines allow
-                        identification of each cell.</p>
-                    <br>
-                    <p>Identifying each braille character requires another process. In a paper from the Proceedings of
-                        the 17th International Conference on Pattern Recognition, such a system of optical recognition
-                        was proposed[5]. It would identify each column of braille dots, also known as as a half
-                        character. Though the paper recognizes room for further optimization, it claims that the current
-                        system achieves a 99% accuracy rate in recognition.</p>
-                    <br>
-                    <br>
-                    <h5>Conclusion</h5>
-                    <br>
-                    <p>Though not used in the testing samples, the final physical model should use different colors for
-                        each set of pieces and chips to enhance recognition accuracy by computer vision. Furthermore,
-                        as the pieces were constructed from a combination of geometric shapes, pictures of the pieces
-                        need to be taken under different conditions to create a dataset train the program to recognize
-                        each one.</p>
-                    <br>
-                    <br>
-                    <h5>References</h5>
-                    <br>
-                    <ol>
-                        <li>Freeman, K. F., Cole, R. G., Faye, E. E., Freeman, P. B., Goodrich, G. L., & Stelmack, J.
-                            A. (2007). Care of the Patient with Visual Impairment (Low Vision Rehabilitation).
-                            Optometric Clinical Practice Guideline.
-                        </li>
-                        <li>Chen, Y., Chaing, C., & Chiu, H. (n.d.). The recognition of 3D basic patterns and tactile
-                            icons for the blind. Retrieved from
-                            <a href="https://pdfs.semanticscholar.org/6552/ef88410c2418ab79d879d7274bcd15e0ee69.pdf">https://pdfs.semanticscholar.org/6552/ef88410c2418ab79d879d7274bcd15e0ee69.pdf</a>
-                        </li>
-                        <li>National Library Service for the Blind and Physically Handicapped, Library of Congress.
-                            Specification 800: Braille BOoks and Pamphlets. Retrieved from
-                            <a href="http://www.loc.gov/nlsold/specs/800_march5_2008.pdf">http://www.loc.gov/nlsold/specs/800_march5_2008.pdf</a>
-                        </li>
-                        <li>A. S. Al-Salman, A. El-Zaart, Y. Al-Suhaibani, K. Al-Hokail and A. O. Al-Qabbany, "An
-                            Efficient Braille Cells Recognition," 2010 6th International Conference on Wireless
-                            Communications Networking and Mobile Computing (WiCOM), Chengdu, 2010, pp. 1-4.
-                        </li>
-                        <li>L. Wong, W. Abdulla and S. Hussmann, "A software algorithm prototype for optical
-                            recognition of embossed Braille," Proceedings of the 17th International Conference on
-                            Pattern Recognition, 2004. ICPR 2004., Cambridge, 2004, pp. 586-589 Vol.2.
-                        </li>
-                    </ol>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="section-wrapper">
-                <div id="blog" class="container section-head">
-                    <h3>Blog Entries</h3>
-                </div>
-                <div class="container">
-                    <div id="week-1" class="subsection-head">
-                        <h4>Week 1</h4>
-                        <h6>August 5th to 9th</h6>
-                    </div>
-                    <h5>Summary</h5>
-                    <br>
-                    <p><u>General Information</u></p>
-                    <ul>
-                        <li>Mentor observation</li>
-                        <li>Student researcher observation</li>
-                        <li>Independent work</li>
-                        <li>6 hours (Monday), 8 hours (Wednesday, Friday)</li>
-                    </ul>
-                    <p><u>Tasks</u></p>
-                    <ul>
-                        <li>Introduction to the task</li>
-                        <li>Brainstorming of ideas</li>
-                        <li>Presentation of proposed designs</li>
-                        <li>Presentation lesson, critiques, and observation</li>
-                    </ul>
-                    <br>
-                    <br>
-                    <h5>Description</h5>
-                    <br>
-                    <p>8:00 AM. Today, I began my first day of the internship listening to a discussion of a future
-                        project. I got to see firsthand how professionals communicate and exchange ideas.</p>
-                    <br>
-                    <p>Afterwards, I began working on my first project. There is an online service called CLOUDES where
-                        users are able to create simulations of processes using the queuing paradigm. However, as it is
-                        all visual-based, it is not readily accessible to the visually impaired. So, I familiarized
-                        myself with the application and brainstormed ways to create this physically using a 3D-printer.
-                        This design needs to be recognizable to the visually impaired and the computer, which will
-                        utilize computer vision (CV) to translate it into a digital simulation.</p>
-                    <br>
-                    <p>This task presents many layers of complexities. The design needs to be both functional and
-                        aesthetic. It needs to be large enough to be recognizable by the computer while also being
-                        compact. The task seemed straight forward at first, but formulating a solution that adheres to
-                        the constraints seem quite difficult.</p>
-                    <br>
-                    <p>The following day, I continued designing. I created a PowerPoint presentation that showcases each
-                        piece and my thought-process for designing it in that way. I presented it to my mentor, Dr.
-                        Padilla, as well as another faculty member, on Friday.</p>
-                    <br>
-                    <p>I had gotten more accustomed to presenting in school, but this was a unique experience. Some
-                        constructive criticism included introducing the problem and solution at the beginning of my
-                        presentation, rather than diving into the solution. Another critique was to support design
-                        choices with research literature.</p>
-                    <br>
-                    <p>While working on this project, I got to observe a presentation by a fourth-year student on
-                        insider threats in corporations. While this does not pertain to my projects, it still offered
-                        interesting perspectives in cybersecurity and corporate ethics.</p>
-                    <br>
-                    <br>
-                    <h5>Conclusion</h5>
-                    <br>
-                    <p>I made good progress on the brainstorming and development of the designs. The informal
-                        presentation was still a little bit nerve wracking, but I thought that my presentation skills
-                        were adequate. There are definitely room for improvement (starting with a story of a problem,
-                        adding references on the slides, etc.), however.</p>
-                    <br>
-                    <p>My next steps are to bring these ideas to life by designing it on 3D modeling software, then
-                        printing it. Throughout, I will probably have to research a little more and revise the
-                        dimensions.</p>
-                </div>
-                <div class="container">
-                    <div id="week-2" class="subsection-head">
-                        <h4>Week 2</h4>
-                        <h6>August 12th to 16th</h6>
-                    </div>
-                    <h5>Summary</h5>
-                    <br>
-                    <p><u>General Information</u></p>
-                    <ul>
-                        <li>Mentor observation</li>
-                        <li>Independent work</li>
-                        <li>8 hours (Monday, Wednesday, Thursday)</li>
-                    </ul>
-                    <p><u>Tasks</u></p>
-                    <ul>
-                        <li>Refining of designs</li>
-                        <li>3D development in Sketchup</li>
-                        <li>Research into design specifics and braille</li>
-                        <li>3D printer tutorial and printing</li>
-                    </ul>
-                    <br>
-                    <br>
-                    <h5>Description</h5>
-                    <br>
-                    <p>I further refined my designs and came up with dimensions for each piece. On Monday, I began
-                        playing with another web application called Sketchup, where I will be building the 3D models. By
-                        the end of Wednesday, I had completed most of the pieces. I had great difficulty creating the
-                        braille for the number chips. I continued to tackle this problem the next day. Eventually, I
-                        found that I could just import a component from the web.</p>
-                    <br>
-                    <p>I came on Thursday instead this week to meet Dr. Garcia, who gave me a tutorial on using their
-                        3D-printer. I did a test print with one of my designed pieces and found that the chips were
-                        slightly too big for the slots in the pieces. So, I fixed that before setting up a print
-                        overnight.</p>
-                    <br>
-                    <p>Finally printing the pieces really refreshed my motivation. Also, Dr. Padilla asked me to see
-                        another professional after this summer internship to present my design. In addition, he asked me
-                        if I would be willing to be a lead in publishing a paper on this project to present at a
-                        conference at George Mason University sometime next year.</p>
-                    <br>
-                    <br>
-                    <h5>Conclusion</h5>
-                    <br>
-                    <p>I think that I made good progress once again this week. Getting a successful print turn out as
-                        well as I thought it would felt very rewarding. I hope that next week, I will be able to print
-                        and test more pieces so that I can soon get started on the OpenCV program.</p>
-                    <br>
-                    <p>In regards to the research paper and conference, I think that it will be an awesome experience
-                        that will have a lot to offer. At this time, however, I am a little anxious about the work and
-                        time
-                        that would require, especially as I head into senior year and do college applications. This is
-                        a path I will definitely consider to further extend my senior project.</p>
-                </div>
-                <div class="container">
-                    <div id="week-3" class="subsection-head">
-                        <h4>Week 3</h4>
-                        <h6>August 19th, 21st, and 23rd</h6>
-                    </div>
-                    <h5>Summary</h5>
-                    <br>
-                    <p><u>General Information</u></p>
-                    <ul>
-                        <li>Mentor observation</li>
-                        <li>Independent work</li>
-                        <li>8 hours (Monday, Wednesday, Friday)</li>
-                    </ul>
-                    <p><u>Tasks</u></p>
-                    <ul>
-                        <li>3D printing and troubleshooting</li>
-                        <li>Design revisions on Sketchup</li>
-                        <li>Brainstorming of designs</li>
-                        <li>Independent study on OpenCV</li>
-                    </ul>
-                    <br>
-                    <br>
-                    <h5>Description</h5>
-                    <br>
-                    <p>When I arrived at VMASC on Monday, the second test print had failed. I emailed Dr. Garcia to see
-                        if he will be available to assist in troubleshooting. It seemed to me that the nozzle was
-                        clogged. Upon disassembly of the nozzle, we found a small piece of filament stuck inside. My
-                        mentor and I tried to troubleshoot the problem as Dr. Garcia was busy, but we ultimately could
-                        not fix the issue.</p>
-                    <br>
-                    <p>For each chip, I resolved to have one set of braille and second set of alphabet to identify each
-                        specification. At this point, I found that the rhombus-shaped chips were too small to contain
-                        some of the letters, so I slightly enlarged it.</p>
-                    <br>
-                    <p>On Wednesday and Friday, I explored alternate options for the design. An idea that I adapted from
-                        Dr. Padilla was to use voice-recognition to add parameters. I also watched tutorial videos to
-                        learn how to use OpenCV for Python.</p>
-                    <br>
-                    <br>
-                    <h5>Conclusion</h5>
-                    <br>
-                    <p>I felt that this week's progress was a little slow. There was not much I could do with so many
-                        issues with the 3D printer. I tried spend my time proactively by visualizing possible faults in
-                        my current designs and revising it, but it would have been a lot quicker to be able to get
-                        started with the programming this week. For now, I can only study OpenCV further and brainstorm
-                        an outline code for the software.</p>
-                </div>
-                <div class="container">
-                    <div id="week-4" class="subsection-head">
-                        <h4>Week 4</h4>
-                        <h6>August 27th, 28th, and 29th</h6>
-                    </div>
-                    <h5>Summary</h5>
-                    <br>
-                    <p><u>General Information</u></p>
-                    <ul>
-                        <li>Mentor observation</li>
-                        <li>Student researcher observation</li>
-                        <li>Independent work</li>
-                        <li>8 hours (Tuesday, Wednesday, Thursday)</li>
-                    </ul>
-                    <p><u>Tasks</u></p>
-                    <ul>
-                        <li>Discussion with student researcher/worker at VMASC regarding OpenCV</li>
-                        <li>Programming on Repl.it</li>
-                        <li>Research on optical braille recognition</li>
-                        <li>3D printing on large 3D printer</li>
-                        <li>Writing up a report</li>
-                    </ul>
-                    <br>
-                    <br>
-                    <h5>Description</h5>
-                    <br>
-                    <p>This week, I started and worked on completing the computer vision aspect of the project. I met
-                        with someone named Chance, who was familiar with OpenCV. He gave me some guidance to get me
-                        going in the right direction. Chance also advised me to learn the basics of computer science, at
-                        the low-level, in order to be able to break through the abstraction.</p>
-                    <br>
-                    <p>After creating an outline of the program, I began working on Repl.it. My major task was to
-                        transform the image using various functions so that I could get its outlines. This was very
-                        challenging. The wood grains of the desk in the background at first added noise. Additionally,
-                        the 3D-printed material itself had visible traces of the printer filament, further adding
-                        noise. Also, the illumination proved to be problematic, as some parts of the picture were more
-                        lit up than others.</p>
-                    <br>
-                    <p>I was able to successfully print a new batch. Before my last day, I used a much larger
-                        3D-printer to get myself a batch to take home, so that I could continue work on the program for
-                        the next month or two. As Dr. Garcia was busy, I was given the tutorial from a friendly
-                        gentleman named John.</p>
-                    <br>
-                    <p>To conclude my internship, I was tasked to write up a two-page report summarizing the design
-                        choices and the research behind it.</p>
-                    <br>
-                    <br>
-                    <h5>Conclusion</h5>
-                    <br>
-                    <p>This week was much more productive than last week. I even got to work the industrial-size
-                        3D-printer, which was awesome. I wished that I could make more progress on the program itself,
-                        but it was challenging to transform the image in a way that its features were
-                        distinguishable. The work feels incomplete, but overall, I made significant progress on it in
-                        four-weeks.</p>
-                    <br>
-                    <p>All-in-all, this experience was very rewarding. Everyone at VMASC was very friendly and
-                        knowledgeable. I was able to perform some academic research while refining my professionalism. I
-                        found that there is much for me to still learn and I am excited to pursue my exploration of the
-                        computer science field.</p>
-                </div>
-            </div>
-        </section>
-        <section id="projects-nav-placeholder"></section>
-    </article>
+                </li>
+                <li><a href="#">Final Report</a></li>
+            </ol>
+        </div>
+    </section>
+    <div class="container"><hr></div>
+    <section id="final-report-section">
+        <div class="container">
+            <h4>Final Report: Developing a Physical Complement to the CLOUDES Web Service for the Visually
+                Impaired</h4>
+            <h5>Introduction</h5>
+            <p>Over the past decade, the Internet has made countless services available to millions of people.
+                However, this virtual world remains largely inaccessible to the visually impaired, those who
+                have a functionally limited eyesight as a consequence of a disease or disorder[1].</p>
+            <p>One such service is CLOUDES, a web service for creating simulations. Its visual-based interface
+                makes it user-friendly, promoting use by non-professionals and students. In order to make it
+                accessible to the visually impaired, physical representations of the digital interface were
+                explored. Tactile components would enable the visually impaired to create a physical model,
+                which can be translated into the CLOUDES web service via computer vision processing of the
+                image.</p>
+            <h5>Discussion</h5>
+            <p>In CLOUDES, several different types of elements can be added to the simulation model such as
+                Arrival, Queue, Process, and Exit. The user can then connect each element together to create the
+                correct sequence of the procedure. The physical model sought to maintain this through unique
+                pieces for each element, which can be put together like a puzzle. A previous design used
+                circular-shaped tabs to connect pieces, which allowed flexibility in motion. However, a
+                trapezoidal shape was used to preserve the rigid uniformity in the constructed model.</p>
+            <p>As each element in the CLOUDES software could be parameterized, characterizing the behavior
+                of each step in the process, chips were designed to be placed onto each piece. Each piece had a
+                unique shape corresponding to its function: hexagons corresponded to distribution specifiers,
+                triangles corresponded to actions, etc. Simple geometric shapes were used for the chips as a
+                study done by researchers from the Transworld Institute of Technology in Taiwan had found
+                them to be more easily identified than complex icons by touch[2]. Each chip also had a unique
+                embossing of a letter or number to further specify its function. A braille alternative was
+                developed as well. Engravings were originally considered but opted against as most prints use
+                embossing, making it more familiar to the visually impaired.</p>
+            <p>To further assist in braille recognition, standard braille dimensions from the National Library
+                Service for the Blind and Physically Handicappped were observed[3]. The final design used sizes
+                which scaled to be 1.5 times larger than standard to enhance computer vision performance and to
+                maintain relative distances between dots. The dot diameter was increased from 1.6 mm to 2.4
+                mm and dot base spacing was increased to 3.6 mm. However, to prevent potentially rough
+                braille, the dot height remained unscaled at 0.9 mm. Additionally, these dots were made of
+                hemispheres rather than cylinders to also reduce roughness.</p>
+            <p>The physical design was also flat to reduce as much use of materials. It also had rounded corners
+                to be more gentle to the touch.</p>
+            <p>To enable a computer to recognize the pieces and chips from an image, OpenCV, an open source
+                package with tools for real-time computer vision, was explored. The idea was to identify each
+                piece of the model using its unique shape and color, then to identify each chip and its
+                corresponding braille or character embossing. This data could then be converted into the
+                CLOUDES web service to run the simulation.</p>
+            <p>A morphological transformation on the image best created the outline of the shapes. However,
+                due to little contrast in color between the embossings and the chips itself, it was challenging
+                to highlight the key features of the model. Additionally, the wood grains of the desk in the
+                background and even the layers of 3D-printed material added to noise to the image.</p>
+            <p>Although character recognition is widely accessible, braille recognition remains somewhat
+                unexplored. A paper from King Saud University outlines the image transformation steps that has
+                yielded a more efficient recognition of braille cells[4]. The process involves first rotating
+                the image to align the braille vertically and horizontally, detecting each dot, and then
+                recognizing each cell. Each cell could be identified by segmenting then constructing lines in
+                regular intervals according to a scale. The intersection of the dots and lines allow
+                identification of each cell.</p>
+            <p>Identifying each braille character requires another process. In a paper from the Proceedings of
+                the 17th International Conference on Pattern Recognition, such a system of optical recognition
+                was proposed[5]. It would identify each column of braille dots, also known as as a half
+                character. Though the paper recognizes room for further optimization, it claims that the current
+                system achieves a 99% accuracy rate in recognition.</p>
+            <h5>Conclusion</h5>
+            <p>Though not used in the testing samples, the final physical model should use different colors for
+                each set of pieces and chips to enhance recognition accuracy by computer vision. Furthermore,
+                as the pieces were constructed from a combination of geometric shapes, pictures of the pieces
+                need to be taken under different conditions to create a dataset train the program to recognize
+                each one.</p>
+            <h5>References</h5>
+            <ol>
+                <li>Freeman, K. F., Cole, R. G., Faye, E. E., Freeman, P. B., Goodrich, G. L., & Stelmack, J.
+                    A. (2007). Care of the Patient with Visual Impairment (Low Vision Rehabilitation).
+                    Optometric Clinical Practice Guideline.
+                </li>
+                <li>Chen, Y., Chaing, C., & Chiu, H. (n.d.). The recognition of 3D basic patterns and tactile
+                    icons for the blind. Retrieved from
+                    <a href="https://pdfs.semanticscholar.org/6552/ef88410c2418ab79d879d7274bcd15e0ee69.pdf">https://pdfs.semanticscholar.org/6552/ef88410c2418ab79d879d7274bcd15e0ee69.pdf</a>
+                </li>
+                <li>National Library Service for the Blind and Physically Handicapped, Library of Congress.
+                    Specification 800: Braille BOoks and Pamphlets. Retrieved from
+                    <a href="http://www.loc.gov/nlsold/specs/800_march5_2008.pdf">http://www.loc.gov/nlsold/specs/800_march5_2008.pdf</a>
+                </li>
+                <li>A. S. Al-Salman, A. El-Zaart, Y. Al-Suhaibani, K. Al-Hokail and A. O. Al-Qabbany, "An
+                    Efficient Braille Cells Recognition," 2010 6th International Conference on Wireless
+                    Communications Networking and Mobile Computing (WiCOM), Chengdu, 2010, pp. 1-4.
+                </li>
+                <li>L. Wong, W. Abdulla and S. Hussmann, "A software algorithm prototype for optical
+                    recognition of embossed Braille," Proceedings of the 17th International Conference on
+                    Pattern Recognition, 2004. ICPR 2004., Cambridge, 2004, pp. 586-589 Vol.2.
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="journal-section">
+        <div class="container">
+            <h3>Blog Entries</h3>
+            <h4>Week 1</h4>
+            <h6>August 5th to 9th</h6>
+            <h5>Summary</h5>
+            <p><u>General Information</u></p>
+            <ul>
+                <li>Mentor observation</li>
+                <li>Student researcher observation</li>
+                <li>Independent work</li>
+                <li>6 hours (Monday), 8 hours (Wednesday, Friday)</li>
+            </ul>
+            <p><u>Tasks</u></p>
+            <ul>
+                <li>Introduction to the task</li>
+                <li>Brainstorming of ideas</li>
+                <li>Presentation of proposed designs</li>
+                <li>Presentation lesson, critiques, and observation</li>
+            </ul>
+            <br>
+            <h5>Description</h5>
+            <p>8:00 AM. Today, I began my first day of the internship listening to a discussion of a future
+                project. I got to see firsthand how professionals communicate and exchange ideas.</p>
+            <p>Afterwards, I began working on my first project. There is an online service called CLOUDES where
+                users are able to create simulations of processes using the queuing paradigm. However, as it is
+                all visual-based, it is not readily accessible to the visually impaired. So, I familiarized
+                myself with the application and brainstormed ways to create this physically using a 3D-printer.
+                This design needs to be recognizable to the visually impaired and the computer, which will
+                utilize computer vision (CV) to translate it into a digital simulation.</p>
+            <p>This task presents many layers of complexities. The design needs to be both functional and
+                aesthetic. It needs to be large enough to be recognizable by the computer while also being
+                compact. The task seemed straight forward at first, but formulating a solution that adheres to
+                the constraints seem quite difficult.</p>
+            <p>The following day, I continued designing. I created a PowerPoint presentation that showcases each
+                piece and my thought-process for designing it in that way. I presented it to my mentor, Dr.
+                Padilla, as well as another faculty member, on Friday.</p>
+            <p>I had gotten more accustomed to presenting in school, but this was a unique experience. Some
+                constructive criticism included introducing the problem and solution at the beginning of my
+                presentation, rather than diving into the solution. Another critique was to support design
+                choices with research literature.</p>
+            <p>While working on this project, I got to observe a presentation by a fourth-year student on
+                insider threats in corporations. While this does not pertain to my projects, it still offered
+                interesting perspectives in cybersecurity and corporate ethics.</p>
+            <br>
+            <h5>Conclusion</h5>
+            <p>I made good progress on the brainstorming and development of the designs. The informal
+                presentation was still a little bit nerve wracking, but I thought that my presentation skills
+                were adequate. There are definitely room for improvement (starting with a story of a problem,
+                adding references on the slides, etc.), however.</p>
+            <p>My next steps are to bring these ideas to life by designing it on 3D modeling software, then
+                printing it. Throughout, I will probably have to research a little more and revise the
+                dimensions.</p>
+            <h4>Week 2</h4>
+            <h6>August 12th to 16th</h6>
+            <h5>Summary</h5>
+            <p><u>General Information</u></p>
+            <ul>
+                <li>Mentor observation</li>
+                <li>Independent work</li>
+                <li>8 hours (Monday, Wednesday, Thursday)</li>
+            </ul>
+            <p><u>Tasks</u></p>
+            <ul>
+                <li>Refining of designs</li>
+                <li>3D development in Sketchup</li>
+                <li>Research into design specifics and braille</li>
+                <li>3D printer tutorial and printing</li>
+            </ul>
+            <h5>Description</h5>
+            <p>I further refined my designs and came up with dimensions for each piece. On Monday, I began
+                playing with another web application called Sketchup, where I will be building the 3D models. By
+                the end of Wednesday, I had completed most of the pieces. I had great difficulty creating the
+                braille for the number chips. I continued to tackle this problem the next day. Eventually, I
+                found that I could just import a component from the web.</p>
+            <p>I came on Thursday instead this week to meet Dr. Garcia, who gave me a tutorial on using their
+                3D-printer. I did a test print with one of my designed pieces and found that the chips were
+                slightly too big for the slots in the pieces. So, I fixed that before setting up a print
+                overnight.</p>
+            <p>Finally printing the pieces really refreshed my motivation. Also, Dr. Padilla asked me to see
+                another professional after this summer internship to present my design. In addition, he asked me
+                if I would be willing to be a lead in publishing a paper on this project to present at a
+                conference at George Mason University sometime next year.</p>
+            <br>
+            <h5>Conclusion</h5>
+            <p>I think that I made good progress once again this week. Getting a successful print turn out as
+                well as I thought it would felt very rewarding. I hope that next week, I will be able to print
+                and test more pieces so that I can soon get started on the OpenCV program.</p>
+            <p>In regards to the research paper and conference, I think that it will be an awesome experience
+                that will have a lot to offer. At this time, however, I am a little anxious about the work and
+                time
+                that would require, especially as I head into senior year and do college applications. This is
+                a path I will definitely consider to further extend my senior project.</p>
+            <h4>Week 3</h4>
+            <h6>August 19th, 21st, and 23rd</h6>
+            <h5>Summary</h5>
+            <p><u>General Information</u></p>
+            <ul>
+                <li>Mentor observation</li>
+                <li>Independent work</li>
+                <li>8 hours (Monday, Wednesday, Friday)</li>
+            </ul>
+            <p><u>Tasks</u></p>
+            <ul>
+                <li>3D printing and troubleshooting</li>
+                <li>Design revisions on Sketchup</li>
+                <li>Brainstorming of designs</li>
+                <li>Independent study on OpenCV</li>
+            </ul>
+            <h5>Description</h5>
+            <p>When I arrived at VMASC on Monday, the second test print had failed. I emailed Dr. Garcia to see
+                if he will be available to assist in troubleshooting. It seemed to me that the nozzle was
+                clogged. Upon disassembly of the nozzle, we found a small piece of filament stuck inside. My
+                mentor and I tried to troubleshoot the problem as Dr. Garcia was busy, but we ultimately could
+                not fix the issue.</p>
+            <p>For each chip, I resolved to have one set of braille and second set of alphabet to identify each
+                specification. At this point, I found that the rhombus-shaped chips were too small to contain
+                some of the letters, so I slightly enlarged it.</p>
+            <p>On Wednesday and Friday, I explored alternate options for the design. An idea that I adapted from
+                Dr. Padilla was to use voice-recognition to add parameters. I also watched tutorial videos to
+                learn how to use OpenCV for Python.</p>
+            <h5>Conclusion</h5>
+            <p>I felt that this week's progress was a little slow. There was not much I could do with so many
+                issues with the 3D printer. I tried spend my time proactively by visualizing possible faults in
+                my current designs and revising it, but it would have been a lot quicker to be able to get
+                started with the programming this week. For now, I can only study OpenCV further and brainstorm
+                an outline code for the software.</p>
+            <h4>Week 4</h4>
+            <h6>August 27th, 28th, and 29th</h6>
+            <h5>Summary</h5>
+            <p><u>General Information</u></p>
+            <ul>
+                <li>Mentor observation</li>
+                <li>Student researcher observation</li>
+                <li>Independent work</li>
+                <li>8 hours (Tuesday, Wednesday, Thursday)</li>
+            </ul>
+            <p><u>Tasks</u></p>
+            <ul>
+                <li>Discussion with student researcher/worker at VMASC regarding OpenCV</li>
+                <li>Programming on Repl.it</li>
+                <li>Research on optical braille recognition</li>
+                <li>3D printing on large 3D printer</li>
+                <li>Writing up a report</li>
+            </ul>
+            <h5>Description</h5>
+            <p>This week, I started and worked on completing the computer vision aspect of the project. I met
+                with someone named Chance, who was familiar with OpenCV. He gave me some guidance to get me
+                going in the right direction. Chance also advised me to learn the basics of computer science, at
+                the low-level, in order to be able to break through the abstraction.</p>
+            <p>After creating an outline of the program, I began working on Repl.it. My major task was to
+                transform the image using various functions so that I could get its outlines. This was very
+                challenging. The wood grains of the desk in the background at first added noise. Additionally,
+                the 3D-printed material itself had visible traces of the printer filament, further adding
+                noise. Also, the illumination proved to be problematic, as some parts of the picture were more
+            <p>I was able to successfully print a new batch. Before my last day, I used a much larger
+                3D-printer to get myself a batch to take home, so that I could continue work on the program for
+                the next month or two. As Dr. Garcia was busy, I was given the tutorial from a friendly
+                gentleman named John.</p>
+            <p>To conclude my internship, I was tasked to write up a two-page report summarizing the design
+                choices and the research behind it.</p>
+            <h5>Conclusion</h5>
+            <p>This week was much more productive than last week. I even got to work the industrial-size
+                3D-printer, which was awesome. I wished that I could make more progress on the program itself,
+                but it was challenging to transform the image in a way that its features were
+                distinguishable. The work feels incomplete, but overall, I made significant progress on it in
+                four-weeks.</p>
+            <p>All-in-all, this experience was very rewarding. Everyone at VMASC was very friendly and
+                knowledgeable. I was able to perform some academic research while refining my professionalism. I
+                found that there is much for me to still learn and I am excited to pursue my exploration of the
+                computer science field.</p>
+        </div>
+    </section>
 
 </main>
-
-<footer id="footer-placeholder"></footer>
-
-<script>
-$(function(){
-  $("#projects-nav-placeholder").load("../templates/projects-nav.html");
-});
-$(function(){
-  $("#footer-placeholder").load("../templates/footer.html");
-});
-
-
-</script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="../old-files/js/darkmode.js"></script>
-<script type="text/javascript" src="../old-files/js/nav.js"></script>
-<script type="text/javascript" src="../old-files/js/smoothscroll.js"></script>
-<script type="text/javascript" src="../old-files/js/tableofcontents.js"></script>
 
 </html>

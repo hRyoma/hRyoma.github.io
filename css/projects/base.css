@@ -1,7 +1,17 @@
+hr {
+    border: 1px solid var(--c-accent);
+    opacity: 0.8;
+    margin: 60px auto;
+}
+
 /* Table of Contents Formatting */
 .toc-list * {
     text-decoration: none;
     color: var(--c-primary-text);
+}
+
+.toc-list a:hover {
+    color: var(--c-accent);
 }
 
 .toc-list ol {

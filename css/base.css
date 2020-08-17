@@ -11,6 +11,7 @@
     /* Text Colors */
     --c-primary-text: #cad7e9;
     --c-secondary-text: #b3c1d4;
+    --c-hyperlink-text: #4f98a0;
 
     /* Font Sets */
     --font-normal: "Avenir", "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
@@ -112,4 +113,8 @@ h6 { font-size: 1rem; }
 main.content {
     padding-top: calc(var(--topnav-height) + 15px);
     padding-bottom: 60px;
+}
+
+a {
+    color: var(--c-hyperlink-text);
 }
