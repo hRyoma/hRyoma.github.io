@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ryoma | Web Portfolio</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/projects/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/topnav.css">
+    <script src="../js/topnav.js" defer></script>
+</head>
+
+<body>
+
+<header id="topnav">
+    <nav class="navbar container">
+        <a class="nav-brand" href="../">ryoma</a>
+        <button type="button" class="navbar-toggle" aria-label="Open navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="nav-overlay"></div>
+        <div class="nav-menu">
+            <ul class="nav-links">
+                <li class="nav-link"><a href="../">home</a></li>
+                <li class="nav-link"><a href="./">projects</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main class="content">
+
+<!--Table of Contents-->
+<section id="section-toc">
+    <div class="container">
+        <h3>Table of Contents</h3>
+        <ol class="toc-list">
+            <li><a href="#">Example 1</a></li>
+            <li>
+                <a href="#">Example 2</a>
+                <ol>
+                    <li><a href="#">Example 2.1</a></li>
+                    <li><a href="#">Example 2.2</a></li>
+                    <li><a href="#">Example 2.3</a>
+                        <ol>
+                            <li>Thing one</li>
+                            <li>Thing two</li>
+                            <li>Thing three</li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+            <li><a href="#">Example 3</a></li>
+            <li><a href="#">Example 4</a></li>
+        </ol>
+    </div>
+</section>
+
+<!--Code Block-->
+<section id="section-code-block">
+    <div class="container">
+        <h3>Code Blocks</h3>
+        <div class="code-block">
+            <div class="code-block-header">
+                <div class="code-block-file-name">code-block.test</div>
+                <div class="code-block-language">Lang</div>
+            </div>
+            <div class="code-block-content">
+                img = cv2.imread('image.jpg')<br>
+                <code>
+                    img.shape&emsp;&emsp;#returns a tuple of the number of rows, cols, and
+                    channels
+                </code><br>
+                <code>img.size&emsp;&emsp;&emsp;#returns the total number of pixels</code><br>
+                <code>img.dtype&emsp;&emsp;#returns the image datatype</code>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h3>In-line Code</h3>
+        This is an example of <code>print("in-line code")</code>.
+    </div>
+</section>
+
+</main>
+
+</body>
+</html>

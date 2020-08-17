@@ -1,0 +1,41 @@
+/* Table of Contents Formatting */
+.toc-list * {
+    text-decoration: none;
+    color: var(--c-primary-text);
+}
+
+.toc-list ol {
+    list-style-type: lower-latin;
+}
+
+.toc-list ol ol {
+    list-style-type: lower-roman;
+}
+
+/* Code Formatting */
+code {
+    font-size: 0.9rem;
+    font-family: var(--font-monospace);
+    background-color: var(--c-primary-2);
+}
+
+.code-block {
+    font-size: 0.9rem;
+    font-family: var(--font-monospace);
+    background-color: var(--c-primary-2);
+    border-radius: 15px;
+}
+
+.code-block-header {
+    border: 1px solid var(--c-primary-3);
+    border-radius: 15px;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.code-block-content {
+    padding: 20px 25px 30px 25px;
+    overflow-x: auto;
+    white-space: nowrap;
+}

@@ -9,9 +9,12 @@
 
     <!-- Base CSS -->
     <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <!-- Topnav CSS/JS -->
+    <link rel="stylesheet" type="text/css" href="../css/topnav.css">
+    <script src="../js/topnav.js" defer></script>
     <!-- Equipotential CSS/JS -->
-    <link rel="stylesheet" type="text/css" href="../css/portfolio/equipotential.css">
-    <script src="../js/portfolio/equipotential.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="../css/projects/equipotential.css">
+    <script src="../js/projects/equipotential.js" defer></script>
 
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -22,7 +25,26 @@
 </head>
 
 <body>
-<main>
+
+<header id="topnav">
+    <nav class="navbar container">
+        <a class="nav-brand" href="../">ryoma</a>
+        <button type="button" class="navbar-toggle" aria-label="Open navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="nav-overlay"></div>
+        <div class="nav-menu">
+            <ul class="nav-links">
+                <li class="nav-link"><a href="../">home</a></li>
+                <li class="nav-link"><a href="./">projects</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main class="content">
     <section id="info-section">
         <div class="container">
             <h1 style="text-align: center;">Equipotential</h1>

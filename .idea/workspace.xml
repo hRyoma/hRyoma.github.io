@@ -21,8 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ffca9b4b-3dc7-4eae-91f9-a2c62b6d0566" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/portfolio/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/portfolio/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/portfolio/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/portfolio/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/equipotential.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/equipotential.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/web-portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/web-portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +34,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -58,13 +59,6 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/projects" />
-      <recent name="$PROJECT_DIR$/old-files" />
-      <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\documents" />
-      <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\layouts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img/home" />
       <recent name="$PROJECT_DIR$/img/projects" />
@@ -72,6 +66,26 @@
       <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\images\projects" />
       <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\images" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/projects" />
+      <recent name="$PROJECT_DIR$/old-files" />
+      <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\documents" />
+      <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\layouts" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -98,7 +112,8 @@
       <workItem from="1597427760022" duration="7163000" />
       <workItem from="1597508238469" duration="3943000" />
       <workItem from="1597589376518" duration="2312000" />
-      <workItem from="1597598664460" duration="1683000" />
+      <workItem from="1597598664460" duration="2002000" />
+      <workItem from="1597673716875" duration="1656000" />
     </task>
     <servers />
   </component>
@@ -134,9 +149,9 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="149" y="297" width="598" height="548" key="find.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1597339558611" />
-    <state x="262" y="222" width="670" height="676" key="search.everywhere.popup" timestamp="1597591228802">
+    <state x="262" y="222" width="670" height="676" key="search.everywhere.popup" timestamp="1597675217746">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="262" y="222" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1597591228802" />
+    <state x="262" y="222" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1597675217746" />
   </component>
 </project>
