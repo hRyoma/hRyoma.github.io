@@ -22,8 +22,10 @@
     <list default="true" id="ffca9b4b-3dc7-4eae-91f9-a2c62b6d0566" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/projects/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/projects/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/computer-vision.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/computer-vision.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/projects/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/projects/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/web-portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/web-portfolio.html" afterDir="false" />
     </list>
@@ -77,19 +79,6 @@
       <recent name="C:\Users\Ryoma\Desktop\Coding\WebDev\Portfolio\hRyoma.github.io\layouts" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -116,7 +105,8 @@
       <workItem from="1597508238469" duration="3943000" />
       <workItem from="1597589376518" duration="2312000" />
       <workItem from="1597598664460" duration="2002000" />
-      <workItem from="1597673716875" duration="6128000" />
+      <workItem from="1597673716875" duration="6206000" />
+      <workItem from="1597763926597" duration="2781000" />
     </task>
     <servers />
   </component>

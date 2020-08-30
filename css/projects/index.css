@@ -16,6 +16,7 @@
     transition: all 0.3s ease-in-out;
 }
 .card:hover {
+    color: var(--c-primary-text) !important;
     box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.4);
     transform: translate(0px, -5px);
 }

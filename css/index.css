@@ -4,6 +4,14 @@
     top: 20vh;
 }
 
+.code {
+    font-family: var(--font-monospace);
+}
+
+.accent {
+    color: var(--c-accent);
+}
+
 #landing-section #resume-link {
     color: var(--c-primary-text);
     border: 1px solid var(--c-accent);

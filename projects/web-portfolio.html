@@ -33,57 +33,65 @@
 
 <main class="content">
 
-<!--table of contents-->
-<section id="toc-section">
-    <div class="container">
-        <h3>Table of Contents</h3>
-        <ol class="toc-list">
-            <li><a href="#">Example 1</a></li>
-            <li>
-                <a href="#">Example 2</a>
-                <ol>
-                    <li><a href="#">Example 2.1</a></li>
-                    <li><a href="#">Example 2.2</a></li>
-                    <li><a href="#">Example 2.3</a>
-                        <ol>
-                            <li>Thing one</li>
-                            <li>Thing two</li>
-                            <li>Thing three</li>
-                        </ol>
-                    </li>
-                </ol>
-            </li>
-            <li><a href="#">Example 3</a></li>
-            <li><a href="#">Example 4</a></li>
-        </ol>
-    </div>
-</section>
+    <!-- Title Section -->
+    <section>
+        <div class="container">
+            <h1>Web Portfolio</h1>
+        </div>
+    </section>
 
-<!--Code Block-->
-<section id="section-code-block">
-    <div class="container">
-        <h3>Code Blocks</h3>
-        <div class="code-block">
-            <div class="code-block-header">
-                <div class="code-block-file-name">code-block.test</div>
-                <div class="code-block-language">Lang</div>
-            </div>
-            <div class="code-block-content">
-                img = cv2.imread('image.jpg')<br>
-                <code>
-                    img.shape&emsp;&emsp;#returns a tuple of the number of rows, cols, and
-                    channels
-                </code><br>
-                <code>img.size&emsp;&emsp;&emsp;#returns the total number of pixels</code><br>
-                <code>img.dtype&emsp;&emsp;#returns the image datatype</code>
+    <!-- Overview Section -->
+    <section>
+        <div class="container">
+            <h2>Overview</h2>
+            <p>This page contains sample elements that are/will be used throughout the rest of this website.</p>
+            <h2>Table of Contents</h2>
+            <ol class="toc">
+                <li><a href="#">Example 1</a></li>
+                <li>
+                    <a href="#">Example 2</a>
+                    <ol>
+                        <li><a href="#">Example 2.1</a></li>
+                        <li><a href="#">Example 2.2</a></li>
+                        <li><a href="#">Example 2.3</a>
+                            <ol>
+                                <li>Thing one</li>
+                                <li>Thing two</li>
+                                <li>Thing three</li>
+                            </ol>
+                        </li>
+                    </ol>
+                </li>
+                <li><a href="#">Example 3</a></li>
+                <li><a href="#">Example 4</a></li>
+            </ol>
+        </div>
+    </section>
+
+    <div class="container"><hr></div>
+
+    <!--Code Block-->
+    <section>
+        <div class="container">
+            <h3>Code Blocks</h3>
+            <div class="code-block">
+                <div class="code-block-header">
+                    <span>code-block.test</span>
+                    <span>Language</span>
+                </div>
+                <div class="code-block-content">
+                    img = cv2.imread('image.jpg')<br>
+                    img.shape&emsp;&emsp;#returns a tuple of the number of rows, cols, and channels<br>
+                    img.size&emsp;&emsp;&emsp;#returns the total number of pixels<br>
+                    img.dtype&emsp;&emsp;#returns the image datatype
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <h3>In-line Code</h3>
-        This is an example of <code>print("in-line code")</code>.
-    </div>
-</section>
+        <div class="container">
+            <h3>In-line Code</h3>
+            This is an example of <code>print("in-line code")</code>.
+        </div>
+    </section>
 
 </main>
 

@@ -118,3 +118,6 @@ main.content {
 a {
     color: var(--c-hyperlink-text);
 }
+a:hover {
+    color: var(--c-accent);
+}
